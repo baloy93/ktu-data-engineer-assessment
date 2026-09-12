@@ -1,0 +1,28 @@
+source_file,sheet_name,column_name,dtype,row_count,null_count,null_pct,distinct_count
+Online Data Export 17 Dec_SCRUBBED.csv,(csv),Course Name,object,25824,0,0.0,58
+Online Data Export 17 Dec_SCRUBBED.csv,(csv),Earliest Approval Date,object,25824,1689,6.5,671
+Online Data Export 17 Dec_SCRUBBED.csv,(csv),Start Date,object,25824,3673,14.2,988
+Online Data Export 17 Dec_SCRUBBED.csv,(csv),End Date,object,25824,7345,28.4,982
+Online Data Export 17 Dec_SCRUBBED.csv,(csv),Trainee Number,int64,25824,0,0.0,11512
+Online Data Export 17 Dec_SCRUBBED.csv,(csv),Last Name,object,25824,0,0.0,7667
+Online Data Export 17 Dec_SCRUBBED.csv,(csv),First Name,object,25824,0,0.0,6324
+Online Data Export 17 Dec_SCRUBBED.csv,(csv),Email,object,25824,0,0.0,11512
+Online Data Export 17 Dec_SCRUBBED.csv,(csv),Gender,object,25824,0,0.0,4
+Online Data Export 17 Dec_SCRUBBED.csv,(csv),Race (mandatory reporting requirement for DOH),object,25824,0,0.0,7
+Online Data Export 17 Dec_SCRUBBED.csv,(csv),Disability,object,25824,19759,76.5,3
+Online Data Export 17 Dec_SCRUBBED.csv,(csv),Employer Category,object,25824,0,0.0,6
+Online Data Export 17 Dec_SCRUBBED.csv,(csv),Employers / Institution,object,25824,19776,76.6,25
+Online Data Export 17 Dec_SCRUBBED.csv,(csv),Employer / Institution Name,object,25824,22273,86.2,464
+Online Data Export 17 Dec_SCRUBBED.csv,(csv),ID Number,float64,25824,475,1.8,11250
+Online Data Export 17 Dec_SCRUBBED.csv,(csv),PERSAL,float64,25824,8003,31.0,4947
+Online Data Export 17 Dec_SCRUBBED.csv,(csv),Profession,object,25824,0,0.0,22
+Online Data Export 17 Dec_SCRUBBED.csv,(csv),Job Title/Rank,object,25824,24571,95.1,238
+Online Data Export 17 Dec_SCRUBBED.csv,(csv),Professional Registration Number,object,25824,250,1.0,11262
+Online Data Export 17 Dec_SCRUBBED.csv,(csv),District,object,25824,2180,8.4,19
+Online Data Export 17 Dec_SCRUBBED.csv,(csv),sub-District,object,25824,3165,12.3,48
+Online Data Export 17 Dec_SCRUBBED.csv,(csv),Location Name,object,25824,17,0.1,428
+Online Data Export 17 Dec_SCRUBBED.csv,(csv),Other Location,object,25824,21011,81.4,946
+Online Data Export 17 Dec_SCRUBBED.csv,(csv),Authority,object,25824,2083,8.1,2
+Online Data Export 17 Dec_SCRUBBED.csv,(csv),Type,object,25824,3310,12.8,20
+Online Data Export 17 Dec_SCRUBBED.csv,(csv),Supervisor Email,object,25824,493,1.9,3213
+Online Data Export 17 Dec_SCRUBBED.csv,(csv),People Development/ RTC Representative (HRD) Email,object,25824,12264,47.5,1322

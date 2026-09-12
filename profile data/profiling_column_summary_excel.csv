@@ -1,0 +1,429 @@
+source_file,sheet_name,column_name,dtype,row_count,null_count,null_pct,distinct_count
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,Captured By,object,2731,0,0.0,1
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,Date first captured (YYYY/MM/DD),datetime64[ns],2731,0,0.0,36
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,Course Name,object,2731,0,0.0,269
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,Method of Delivery (Training modality),object,2731,0,0.0,2
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,Start date (YYYY/MM/DD),datetime64[ns],2731,0,0.0,40
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,End date (YYYY/MM/DD),datetime64[ns],2731,0,0.0,39
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,Booking/enrollment status,object,2731,0,0.0,4
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,Training Venue,object,2731,0,0.0,18
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,Presenter/Facilitator name and surname,object,2731,0,0.0,42
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,Contracted Provider,object,2731,316,11.6,4
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,"Funding Partner- If not PDC (eg. NDOH, Love Life, Soul City)",object,2731,2387,87.4,6
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,Coordinator,object,2731,66,2.4,2
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,Participant Surname,object,2731,6,0.2,1303
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,Participant First name,object,2731,4,0.1,1426
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,Email Address,object,2731,39,1.4,1960
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,Gender,object,2731,98,3.6,3
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,Race,object,2731,241,8.8,9
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,Disability,object,2731,75,2.7,2
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,Employer Group,object,2731,106,3.9,7
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,"Employer details (eg: WCCN, Anova, Pollsmoor)",object,2731,2489,91.1,153
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,ID number,float64,2731,231,8.5,1649
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,Persal/Employee number,float64,2731,144,5.3,1651
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,Professional Category,object,2731,43,1.6,45
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,Profession,object,2731,124,4.5,47
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,Job Title/Rank (if different),object,2731,1864,68.3,504
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,Professional Registration Number,object,2731,163,6.0,1774
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,District,object,2731,40,1.5,73
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,Sub-structure/ sub-district,object,2731,923,33.8,28
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,Facility,object,2731,435,15.9,448
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,"If Facility not on the list, please provide details (Facility name/work location)",object,2731,2382,87.2,245
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,Supervisor Email,object,2731,173,6.3,1321
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,HRD Representative Email,object,2731,160,5.9,226
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,Attendance status,object,2731,6,0.2,5
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,Certificate Number,object,2731,0,0.0,2731
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,Date Electronic Certificate Issued to HRD (YYYY/MM/DD),datetime64[ns],2731,2078,76.1,1
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,Competency status (leave for now),float64,2731,2731,100.0,0
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer1,Date finalised (YYYY/MM/DD),datetime64[ns],2731,2078,76.1,1
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,Captured By,object,6701,0,0.0,1
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,Date first captured (YYYY/MM/DD),datetime64[ns],6701,0,0.0,74
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,Course Name,object,6701,0,0.0,497
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,Method of Delivery (Training modality),object,6701,0,0.0,2
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,Start date (YYYY/MM/DD),datetime64[ns],6701,0,0.0,153
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,End date (YYYY/MM/DD),datetime64[ns],6701,0,0.0,152
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,Booking/enrollment status,object,6701,0,0.0,1
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,Training Venue,object,6701,0,0.0,56
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,Presenter/Facilitator name and surname,object,6701,677,10.1,95
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,Contracted Provider,object,6701,0,0.0,6
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,"Funding Partner- If not PDC (eg. NDOH, Love Life, Soul City)",float64,6701,6701,100.0,0
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,Coordinator,object,6701,0,0.0,2
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,Participant Surname,object,6701,4,0.1,2970
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,Participant First name,object,6701,4,0.1,3195
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,Email Address,object,6701,236,3.5,4631
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,Gender,object,6701,143,2.1,3
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,Race,object,6701,143,2.1,5
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,Disability,object,6701,221,3.3,2
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,Employer Group,object,6701,31,0.5,6
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,"Employer details (eg: WCCN, Anova, Pollsmoor)",object,6701,6666,99.5,24
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,ID number,float64,6701,525,7.8,4157
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,Persal/Employee number,float64,6701,763,11.4,3739
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,Professional Category,object,6701,62,0.9,49
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,Profession,object,6701,359,5.4,44
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,Job Title/Rank (if different),object,6701,6210,92.7,205
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,Professional Registration Number,object,6701,1284,19.2,3508
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,District,object,6701,195,2.9,79
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,Sub-structure/ sub-district,object,6701,5102,76.1,48
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,Facility,object,6701,583,8.7,654
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,"If Facility not on the list, please provide details (Facility name/work location)",object,6701,6548,97.7,71
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,Supervisor Email,object,6701,1314,19.6,2145
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,HRD Representative Email,object,6701,1032,15.4,401
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,Attendance status,object,6701,35,0.5,4
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,Certificate Number,object,6701,0,0.0,6701
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,Date Electronic Certificate Issued to HRD (YYYY/MM/DD),float64,6701,6701,100.0,0
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,Competency status (leave for now),float64,6701,6701,100.0,0
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer2,Date finalised (YYYY/MM/DD),float64,6701,6701,100.0,0
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,Captured By,object,2175,35,1.6,1
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,Date first captured (YYYY/MM/DD),datetime64[ns],2175,35,1.6,21
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,Course Name,object,2175,35,1.6,166
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,Method of Delivery (Training modality),object,2175,35,1.6,2
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,Start date (YYYY/MM/DD),datetime64[ns],2175,35,1.6,22
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,End date (YYYY/MM/DD),datetime64[ns],2175,35,1.6,22
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,Booking/enrollment status,object,2175,2086,95.9,2
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,Training Venue,object,2175,35,1.6,7
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,Presenter/Facilitator name and surname,object,2175,272,12.5,18
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,Contracted Provider,object,2175,315,14.5,4
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,"Funding Partner- If not PDC (eg. NDOH, Love Life, Soul City)",float64,2175,2175,100.0,0
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,Coordinator,object,2175,35,1.6,2
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,Participant Surname,object,2175,35,1.6,1260
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,Participant First name,object,2175,37,1.7,1337
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,Email Address,object,2175,56,2.6,1456
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,Gender,object,2175,49,2.3,2
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,Race,object,2175,136,6.3,4
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,Disability,object,2175,228,10.5,2
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,Employer Group,object,2175,44,2.0,7
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,"Employer details (eg: WCCN, Anova, Pollsmoor)",object,2175,2163,99.4,1
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,ID number,float64,2175,71,3.3,1409
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,Persal/Employee number,float64,2175,185,8.5,1282
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,Professional Category,object,2175,38,1.7,37
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,Profession,object,2175,70,3.2,43
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,Job Title/Rank (if different),object,2175,255,11.7,731
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,Professional Registration Number,object,2175,323,14.9,1217
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,District,object,2175,103,4.7,55
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,Sub-structure/ sub-district,object,2175,1482,68.1,49
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,Facility,object,2175,659,30.3,332
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,"If Facility not on the list, please provide details (Facility name/work location)",object,2175,191,8.8,812
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,Supervisor Email,object,2175,235,10.8,1157
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,HRD Representative Email,object,2175,349,16.0,1038
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,Attendance status,object,2175,36,1.7,3
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,Certificate Number,object,2175,101,4.6,1899
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,Date Electronic Certificate Issued to HRD (YYYY/MM/DD),datetime64[ns],2175,2131,98.0,1
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,Competency status (leave for now),float64,2175,2175,100.0,0
+Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx,Capturer3,Date finalised (YYYY/MM/DD),float64,2175,2175,100.0,0
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,Date Submitted: ____2025/10/28____________________,object,23,22,95.7,1
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 1,object,23,0,0.0,15
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 2,object,23,0,0.0,21
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 3,object,23,22,95.7,1
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 4,object,23,0,0.0,2
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 5,object,23,0,0.0,2
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 6,object,23,0,0.0,2
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 7,object,23,0,0.0,2
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 8,object,23,0,0.0,2
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 9,object,23,0,0.0,21
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 10,object,23,22,95.7,1
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 11,object,23,0,0.0,2
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 12,object,23,22,95.7,1
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 13,object,23,22,95.7,1
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 14,object,23,0,0.0,2
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 15,object,23,0,0.0,2
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 16,object,23,22,95.7,1
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 17,object,23,22,95.7,1
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 18,object,23,0,0.0,2
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,1-CHW- Introductory Module (M1),object,23,22,95.7,1
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 20,object,23,22,95.7,1
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,2-CHW- Healthy Conversations Module (M2),object,23,22,95.7,1
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 22,object,23,22,95.7,1
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,3-CHW- Mental Health Module (M3),object,23,22,95.7,1
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 24,object,23,22,95.7,1
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,4-CHW- Treatment Adherence Module (M4),object,23,22,95.7,1
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 26,object,23,22,95.7,1
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,5-Communicable Diseases Module Part 1: HIV and Other STIs,object,23,22,95.7,1
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 28,object,23,22,95.7,1
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,6-Communicable Diseases Part 1: HIV testing - Competency Assessment,object,23,22,95.7,1
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 30,object,23,22,95.7,1
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,7- Communicable Diseases Part 2: TB and Other Respiratory Infections: Theory,object,23,22,95.7,1
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 32,object,23,22,95.7,1
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,8-Communicable Diseases Part 2: Sputum Collection for TB testing - Competency Assessment,object,23,22,95.7,1
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 34,object,23,22,95.7,1
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,9-Communicable Diseases Part 3: Diarrhoea and Gut Infections,object,23,22,95.7,1
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 36,object,23,22,95.7,1
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,10- Communicable Diseases Module Part 4: Skin Infections,object,23,22,95.7,1
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 38,object,23,22,95.7,1
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,11-Maternal and Child Health Part 1: Caring for the pregnant clients,object,23,22,95.7,1
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 40,object,23,22,95.7,1
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,12- Maternal and Child Health Part 2: Caring for mothers and babies after birth,object,23,22,95.7,1
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 42,object,23,22,95.7,1
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,13- Maternal and Child Health Part 3: Feeding support for caregivers and babies after birth,object,23,20,87.0,2
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 44,object,23,20,87.0,2
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,14- Maternal and Child Health Part 4: Child health and nutrition,object,23,2,8.7,3
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 46,object,23,2,8.7,2
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,15- Maternal and Child Health Part 5: Supporting vulnerable children,object,23,22,95.7,1
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 48,object,23,22,95.7,1
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_District,District,object,7,1,14.3,6
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_District,Unnamed: 1,float64,7,7,100.0,0
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_District,Unnamed: 2,float64,7,7,100.0,0
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_District,Cape Winelands,object,7,2,28.6,5
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_District,Central Karoo,object,7,4,57.1,3
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_District,Garden Route,object,7,0,0.0,7
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_District,Metro,object,7,3,42.9,4
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_District,Overberg,object,7,3,42.9,4
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_District,West Coast,object,7,2,28.6,5
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_Employer,Employer,object,9,7,77.8,2
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_Employer,Employer Group,object,9,0,0.0,9
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_Employer,Subgroup,float64,9,9,100.0,0
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_Facility,FacilityName,object,596,0,0.0,596
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_Facility,DistrictMunicipality,object,596,16,2.7,6
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_Facility,HealthSubdistrict,object,596,37,6.2,32
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_Facility,MetroRuralPDC,object,596,53,8.9,5
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_General,Capturer,object,6,1,16.7,5
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_General,Unnamed: 1,float64,6,6,100.0,0
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_General,Gender,object,6,3,50.0,3
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_General,Unnamed: 3,float64,6,6,100.0,0
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_General,Coordinator,object,6,0,0.0,6
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_General,Unnamed: 5,float64,6,6,100.0,0
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_General,Booking/enrolment status,object,6,2,33.3,4
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_General,Unnamed: 7,float64,6,6,100.0,0
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_General,Attendance status,object,6,1,16.7,5
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_General,Unnamed: 9,float64,6,6,100.0,0
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_General,Race,object,6,1,16.7,5
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_General,Unnamed: 11,float64,6,6,100.0,0
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_General,Disability,object,6,4,66.7,2
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_General,Unnamed: 13,float64,6,6,100.0,0
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_General,Competency Status,object,6,4,66.7,2
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_Profession,ProfessionKey,object,62,0,0.0,62
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_Profession,Professional category,object,62,0,0.0,4
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_Profession,Job title,object,62,0,0.0,62
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_Profession,KTU Profession,float64,62,62,100.0,0
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_Profession,Unnamed: 4,float64,62,62,100.0,0
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_Profession,Unnamed: 5,float64,62,62,100.0,0
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_Profession,Unnamed: 6,float64,62,62,100.0,0
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_Profession,Unnamed: 7,float64,62,62,100.0,0
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_Profession,Unnamed: 8,float64,62,62,100.0,0
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_Profession,Unnamed: 9,float64,62,62,100.0,0
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_Profession,Unnamed: 10,float64,62,62,100.0,0
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_Profession,Unnamed: 11,float64,62,62,100.0,0
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_Profession,Professional category.1,object,62,58,93.5,4
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_Profession,Doctor,object,62,53,85.5,9
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_Profession,Nurse,object,62,41,66.1,21
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_Profession,Pharmacist,object,62,58,93.5,4
+Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx,lu_Profession,Other,object,62,32,51.6,30
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,Date Submitted: ________________________,object,234,233,99.6,1
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 1,object,234,0,0.0,222
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 2,object,234,0,0.0,212
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 3,object,234,233,99.6,1
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 4,object,234,15,6.4,3
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 5,object,234,41,17.5,3
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 6,object,234,37,15.8,2
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 7,object,234,0,0.0,2
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 8,object,234,0,0.0,5
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 9,object,234,38,16.2,194
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 10,object,234,198,84.6,36
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 11,object,234,4,1.7,3
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 12,object,234,233,99.6,1
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 13,object,234,233,99.6,1
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 14,object,234,4,1.7,2
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 15,object,234,4,1.7,2
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 16,object,234,233,99.6,1
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 17,object,234,4,1.7,7
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 18,object,234,233,99.6,1
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,1-CHW- Introductory Module (M1),object,234,233,99.6,1
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 20,object,234,233,99.6,1
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,2-CHW- Healthy Conversations Module (M2),object,234,168,71.8,4
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 22,object,234,168,71.8,3
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,3-CHW- Mental Health Module (M3),object,234,198,84.6,5
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 24,object,234,198,84.6,2
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,4-CHW- Treatment Adherence Module (M4),object,234,168,71.8,4
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 26,object,234,168,71.8,3
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,5-Communicable Diseases Module Part 1: HIV and Other STIs,object,234,88,37.6,8
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 28,object,234,89,38.0,7
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,6-Communicable Diseases Part 1: HIV testing - Competency Assessment,object,234,233,99.6,1
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 30,object,234,233,99.6,1
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,7- Communicable Diseases Part 2: TB and Other Respiratory Infections: Theory,object,234,75,32.1,14
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 32,object,234,76,32.5,6
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,8-Communicable Diseases Part 2: Sputum Collection for TB testing - Competency Assessment,object,234,233,99.6,1
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 34,object,234,233,99.6,1
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,9-Communicable Diseases Part 3: Diarrhoea and Gut Infections,object,234,225,96.2,2
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 36,object,234,225,96.2,2
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,10- Communicable Diseases Module Part 4: Skin Infections,object,234,233,99.6,1
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 38,object,234,233,99.6,1
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,11-Maternal and Child Health Part 1: Caring for the pregnant clients,object,234,233,99.6,1
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 40,object,234,233,99.6,1
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,12- Maternal and Child Health Part 2: Caring for mothers and babies after birth,object,234,233,99.6,1
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 42,object,234,233,99.6,1
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,13- Maternal and Child Health Part 3: Feeding support for caregivers and babies after birth,object,234,233,99.6,1
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 44,object,234,233,99.6,1
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,14- Maternal and Child Health Part 4: Child health and nutrition,object,234,233,99.6,1
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 46,object,234,233,99.6,1
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,15- Maternal and Child Health Part 5: Supporting vulnerable children,object,234,233,99.6,1
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 48,object,234,233,99.6,1
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_District,District,object,7,1,14.3,6
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_District,Unnamed: 1,float64,7,7,100.0,0
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_District,Unnamed: 2,float64,7,7,100.0,0
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_District,Cape Winelands,object,7,2,28.6,5
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_District,Central Karoo,object,7,4,57.1,3
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_District,Garden Route,object,7,0,0.0,7
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_District,Metro,object,7,3,42.9,4
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_District,Overberg,object,7,3,42.9,4
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_District,West Coast,object,7,2,28.6,5
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_Employer,Employer,object,9,7,77.8,2
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_Employer,Employer Group,object,9,0,0.0,9
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_Employer,Subgroup,float64,9,9,100.0,0
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_Facility,FacilityName,object,596,0,0.0,596
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_Facility,DistrictMunicipality,object,596,16,2.7,6
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_Facility,HealthSubdistrict,object,596,37,6.2,32
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_Facility,MetroRuralPDC,object,596,53,8.9,5
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_General,Capturer,object,6,1,16.7,5
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_General,Unnamed: 1,float64,6,6,100.0,0
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_General,Gender,object,6,3,50.0,3
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_General,Unnamed: 3,float64,6,6,100.0,0
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_General,Coordinator,object,6,0,0.0,6
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_General,Unnamed: 5,float64,6,6,100.0,0
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_General,Booking/enrolment status,object,6,2,33.3,4
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_General,Unnamed: 7,float64,6,6,100.0,0
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_General,Attendance status,object,6,1,16.7,5
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_General,Unnamed: 9,float64,6,6,100.0,0
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_General,Race,object,6,1,16.7,5
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_General,Unnamed: 11,float64,6,6,100.0,0
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_General,Disability,object,6,4,66.7,2
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_General,Unnamed: 13,float64,6,6,100.0,0
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_General,Competency Status,object,6,4,66.7,2
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_Profession,ProfessionKey,object,62,0,0.0,62
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_Profession,Professional category,object,62,0,0.0,4
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_Profession,Job title,object,62,0,0.0,62
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_Profession,KTU Profession,float64,62,62,100.0,0
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_Profession,Unnamed: 4,float64,62,62,100.0,0
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_Profession,Unnamed: 5,float64,62,62,100.0,0
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_Profession,Unnamed: 6,float64,62,62,100.0,0
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_Profession,Unnamed: 7,float64,62,62,100.0,0
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_Profession,Unnamed: 8,float64,62,62,100.0,0
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_Profession,Unnamed: 9,float64,62,62,100.0,0
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_Profession,Unnamed: 10,float64,62,62,100.0,0
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_Profession,Unnamed: 11,float64,62,62,100.0,0
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_Profession,Professional category.1,object,62,58,93.5,4
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_Profession,Doctor,object,62,53,85.5,9
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_Profession,Nurse,object,62,41,66.1,21
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_Profession,Pharmacist,object,62,58,93.5,4
+Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx,lu_Profession,Other,object,62,32,51.6,30
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,Date Submitted: ________________________,object,105,104,99.0,1
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 1,object,105,0,0.0,96
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 2,object,105,0,0.0,96
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 3,object,105,103,98.1,2
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 4,object,105,0,0.0,3
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 5,object,105,0,0.0,3
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 6,object,105,0,0.0,2
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 7,object,105,30,28.6,2
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 8,object,105,104,99.0,1
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 9,object,105,0,0.0,101
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 10,object,105,104,99.0,1
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 11,object,105,5,4.8,2
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 12,object,105,104,99.0,1
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 13,object,105,104,99.0,1
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 14,object,105,1,1.0,2
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 15,object,105,1,1.0,2
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 16,object,105,57,54.3,8
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 17,object,105,78,74.3,8
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 18,object,105,30,28.6,2
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,1-CHW- Introductory Module (M1),object,105,25,23.8,4
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 20,object,105,54,51.4,4
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,2-CHW- Healthy Conversations Module (M2),object,105,68,64.8,3
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 22,object,105,68,64.8,3
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,3-CHW- Mental Health Module (M3),object,105,68,64.8,3
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 24,object,105,68,64.8,3
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,4-CHW- Treatment Adherence Module (M4),object,105,68,64.8,4
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 26,object,105,68,64.8,3
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,5-Communicable Diseases Module Part 1: HIV and Other STIs,object,105,68,64.8,3
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 28,object,105,68,64.8,3
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,6-Communicable Diseases Part 1: HIV testing - Competency Assessment,object,105,68,64.8,3
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 30,object,105,68,64.8,3
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,7- Communicable Diseases Part 2: TB and Other Respiratory Infections: Theory,object,105,68,64.8,3
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 32,object,105,68,64.8,3
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,8-Communicable Diseases Part 2: Sputum Collection for TB testing - Competency Assessment,object,105,68,64.8,3
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 34,object,105,68,64.8,4
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,9-Communicable Diseases Part 3: Diarrhoea and Gut Infections,object,105,68,64.8,3
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 36,object,105,68,64.8,3
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,10- Communicable Diseases Module Part 4: Skin Infections,object,105,67,63.8,4
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 38,object,105,68,64.8,3
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,11-Maternal and Child Health Part 1: Caring for the pregnant clients,object,105,55,52.4,2
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 40,object,105,55,52.4,3
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,12- Maternal and Child Health Part 2: Caring for mothers and babies after birth,object,105,56,53.3,2
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 42,object,105,56,53.3,3
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,13- Maternal and Child Health Part 3: Feeding support for caregivers and babies after birth,object,105,48,45.7,2
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 44,object,105,48,45.7,4
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,14- Maternal and Child Health Part 4: Child health and nutrition,object,105,47,44.8,5
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 46,object,105,47,44.8,3
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,15- Maternal and Child Health Part 5: Supporting vulnerable children,object,105,104,99.0,1
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,Training Attendance,Unnamed: 48,object,105,104,99.0,1
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_District,District,object,7,1,14.3,6
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_District,Unnamed: 1,float64,7,7,100.0,0
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_District,Unnamed: 2,float64,7,7,100.0,0
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_District,Cape Winelands,object,7,2,28.6,5
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_District,Central Karoo,object,7,4,57.1,3
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_District,Garden Route,object,7,0,0.0,7
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_District,Metro,object,7,3,42.9,4
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_District,Overberg,object,7,3,42.9,4
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_District,West Coast,object,7,2,28.6,5
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_Employer,Employer,object,9,7,77.8,2
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_Employer,Employer Group,object,9,0,0.0,9
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_Employer,Subgroup,float64,9,9,100.0,0
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_Facility,FacilityName,object,596,0,0.0,596
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_Facility,DistrictMunicipality,object,596,16,2.7,6
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_Facility,HealthSubdistrict,object,596,37,6.2,32
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_Facility,MetroRuralPDC,object,596,53,8.9,5
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_General,Capturer,object,6,1,16.7,5
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_General,Unnamed: 1,float64,6,6,100.0,0
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_General,Gender,object,6,3,50.0,3
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_General,Unnamed: 3,float64,6,6,100.0,0
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_General,Coordinator,object,6,0,0.0,6
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_General,Unnamed: 5,float64,6,6,100.0,0
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_General,Booking/enrolment status,object,6,2,33.3,4
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_General,Unnamed: 7,float64,6,6,100.0,0
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_General,Attendance status,object,6,1,16.7,5
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_General,Unnamed: 9,float64,6,6,100.0,0
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_General,Race,object,6,1,16.7,5
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_General,Unnamed: 11,float64,6,6,100.0,0
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_General,Disability,object,6,4,66.7,2
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_General,Unnamed: 13,float64,6,6,100.0,0
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_General,Competency Status,object,6,4,66.7,2
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_Profession,ProfessionKey,object,62,0,0.0,62
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_Profession,Professional category,object,62,0,0.0,4
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_Profession,Job title,object,62,0,0.0,62
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_Profession,KTU Profession,float64,62,62,100.0,0
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_Profession,Unnamed: 4,float64,62,62,100.0,0
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_Profession,Unnamed: 5,float64,62,62,100.0,0
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_Profession,Unnamed: 6,float64,62,62,100.0,0
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_Profession,Unnamed: 7,float64,62,62,100.0,0
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_Profession,Unnamed: 8,float64,62,62,100.0,0
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_Profession,Unnamed: 9,float64,62,62,100.0,0
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_Profession,Unnamed: 10,float64,62,62,100.0,0
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_Profession,Unnamed: 11,float64,62,62,100.0,0
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_Profession,Professional category.1,object,62,58,93.5,4
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_Profession,Doctor,object,62,53,85.5,9
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_Profession,Nurse,object,62,41,66.1,21
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_Profession,Pharmacist,object,62,58,93.5,4
+Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx,lu_Profession,Other,object,62,32,51.6,30
+Course and Facility Look Ups.xlsx,LU_Courses,CourseGroup,object,340,0,0.0,12
+Course and Facility Look Ups.xlsx,LU_Courses,CourseName,object,340,0,0.0,339
+Course and Facility Look Ups.xlsx,LU_Courses,CourseCode,object,340,0,0.0,297
+Course and Facility Look Ups.xlsx,LU_Courses,CourseStartDate,datetime64[ns],340,0,0.0,1
+Course and Facility Look Ups.xlsx,LU_Courses,CourseEndDate,datetime64[ns],340,0,0.0,2
+Course and Facility Look Ups.xlsx,LU_Courses,CourseStatus,object,340,0,0.0,2
+Course and Facility Look Ups.xlsx,LU_Courses,CourseGroup_WithoutCHW,object,340,0,0.0,12
+Course and Facility Look Ups.xlsx,LU_Facility,Status,object,809,0,0.0,1
+Course and Facility Look Ups.xlsx,LU_Facility,FacilityCode,object,809,0,0.0,808
+Course and Facility Look Ups.xlsx,LU_Facility,FacilityName,object,809,0,0.0,809
+Course and Facility Look Ups.xlsx,LU_Facility,FacilityReportingName,object,809,0,0.0,677
+Course and Facility Look Ups.xlsx,LU_Facility,Country,object,809,0,0.0,2
+Course and Facility Look Ups.xlsx,LU_Facility,Province,object,809,0,0.0,10
+Course and Facility Look Ups.xlsx,LU_Facility,HealthDistrict,object,809,0,0.0,41
+Course and Facility Look Ups.xlsx,LU_Facility,HealthSubdistrict,object,809,2,0.2,69
+Course and Facility Look Ups.xlsx,LU_Facility,Authority_Sector,object,809,0,0.0,12
+Course and Facility Look Ups.xlsx,LU_Facility,AuthorityInd,object,809,1,0.1,6
+Course and Facility Look Ups.xlsx,LU_Facility,Substructure_District,object,809,0,0.0,12
+Course and Facility Look Ups.xlsx,LU_Facility,Substructure_District_CCT,object,809,0,0.0,13
+Course and Facility Look Ups.xlsx,LU_Facility,SubStructure,object,809,0,0.0,6
+Course and Facility Look Ups.xlsx,LU_Facility,Ecosystem,object,809,19,2.3,7
+Course and Facility Look Ups.xlsx,LU_Facility,RuralUrban,object,809,19,2.3,4
+Course and Facility Look Ups.xlsx,LU_Facility,MetroRural,object,809,6,0.7,4
+Course and Facility Look Ups.xlsx,LU_Facility,Class,object,809,18,2.2,53
+Course and Facility Look Ups.xlsx,LU_Facility,CategoryInd,object,809,18,2.2,10
+Course and Facility Look Ups.xlsx,LU_Facility,MetroRuralPDC,object,809,0,0.0,8

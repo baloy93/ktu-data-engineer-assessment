@@ -1,0 +1,2883 @@
+KTU DATA ENGINEER ASSESSMENT - PROFILING REPORT
+Training data directory: C:\Users\baloy\Desktop\KTU\Training Data
+Excel files found: 5
+CSV files found:   1
+
+================================================================================
+FILE: Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx
+TYPE: Excel
+RELATIVE PATH: Capturing Tool_V1c V2-27 January 2026_SCRUBBED.xlsx
+SIZE: 2101.9 KB
+================================================================================
+SHEETS: ['Capturer1', 'Capturer2', 'Capturer3']
+
+--------------------------------------------------------------------------------
+SHEET: Capturer1
+--------------------------------------------------------------------------------
+ROWS: 2731
+COLUMNS: 37
+
+  Column: 'Captured By'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 1
+    Values: ['NameAcbabeacac']
+
+  Column: 'Date first captured (YYYY/MM/DD)'
+    Dtype: datetime64[ns]
+    Nulls: 0 (0.0%)
+    Distinct: 36
+    Values: [Timestamp('2025-03-17 00:00:00'), Timestamp('2025-03-19 00:00:00'), Timestamp('2025-03-20 00:00:00'), Timestamp('2025-03-25 00:00:00'), Timestamp('2025-03-27 00:00:00'), Timestamp('2025-03-28 00:00:00'), Timestamp('2025-03-29 00:00:00'), Timestamp('2025-03-30 00:00:00'), Timestamp('2025-03-31 00:00:00'), Timestamp('2025-04-15 00:00:00'), Timestamp('2025-05-09 00:00:00'), Timestamp('2025-05-15 00:00:00'), Timestamp('2025-06-06 00:00:00'), Timestamp('2025-06-09 00:00:00'), Timestamp('2025-06-13 00:00:00'), Timestamp('2025-06-23 00:00:00'), Timestamp('2025-06-27 00:00:00'), Timestamp('2025-07-14 00:00:00'), Timestamp('2025-07-25 00:00:00'), Timestamp('2025-08-01 00:00:00'), Timestamp('2025-08-07 00:00:00'), Timestamp('2025-08-08 00:00:00'), Timestamp('2025-08-09 00:00:00'), Timestamp('2025-08-20 00:00:00'), Timestamp('2025-08-28 00:00:00'), Timestamp('2025-09-12 00:00:00'), Timestamp('2025-09-19 00:00:00'), Timestamp('2025-10-14 00:00:00'), Timestamp('2025-10-22 00:00:00'), Timestamp('2025-10-23 00:00:00'), Timestamp('2025-10-30 00:00:00'), Timestamp('2025-11-14 00:00:00'), Timestamp('2025-11-21 00:00:00'), Timestamp('2025-11-27 00:00:00'), Timestamp('2025-12-02 00:00:00'), Timestamp('2025-12-05 00:00:00')]
+
+  Column: 'Course Name'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 269
+    Sample (first 15): ['Type 1 Diabetes Mellitus in children and adolescents', 'Type 1 Diabetes Mellitus In Children And Adolescents', 'Type 1 Diabetes Mellitus in hcildren and adolescents', 'Type 1 Diabetes Mellitus in chhildren and adolescents', 'Type  Diabetes Mellitus in children and adolescents', 'Type 1 Diabetes Mellitus in children nd adolescents', 'Attention Deficit Hyperactivity Disorder (ADHD) in Children', 'attention deficit hyperactivity disorder (adhd) in children', 'Attention Deficit Hyperatcivity Disorder (ADHD) in Children', 'ATTENTION DEFICIT HYPERACTIVITY DISORDER (ADHD) IN CHILDREN', 'Attention Deficit Hyperactivity Disorder (ADHD) in Chilren', 'Attention eficit Hyperactivity Disorder (ADHD) in Children', 'Attention Deficit Hyyperactivity Disorder (ADHD) in Children', 'Attention Deficit Hyperactivity Disorder  (ADHD) in Children', 'Attention Deficit Hyperactivity Disorder (Adhd) In Children']
+
+  Column: 'Method of Delivery (Training modality)'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 2
+    Values: ['Face to Face', 'Webinar']
+
+  Column: 'Start date (YYYY/MM/DD)'
+    Dtype: datetime64[ns]
+    Nulls: 0 (0.0%)
+    Distinct: 40
+    Values: [Timestamp('2025-02-04 00:00:00'), Timestamp('2025-02-17 00:00:00'), Timestamp('2025-02-19 00:00:00'), Timestamp('2025-02-21 00:00:00'), Timestamp('2025-02-24 00:00:00'), Timestamp('2025-02-27 00:00:00'), Timestamp('2025-03-03 00:00:00'), Timestamp('2025-03-05 00:00:00'), Timestamp('2025-03-13 00:00:00'), Timestamp('2025-03-25 00:00:00'), Timestamp('2025-03-27 00:00:00'), Timestamp('2025-04-15 00:00:00'), Timestamp('2025-05-08 00:00:00'), Timestamp('2025-05-09 00:00:00'), Timestamp('2025-05-19 00:00:00'), Timestamp('2025-05-20 00:00:00'), Timestamp('2025-05-22 00:00:00'), Timestamp('2025-05-27 00:00:00'), Timestamp('2025-06-11 00:00:00'), Timestamp('2025-06-19 00:00:00'), Timestamp('2025-06-27 00:00:00'), Timestamp('2025-07-11 00:00:00'), Timestamp('2025-07-16 00:00:00'), Timestamp('2025-07-31 00:00:00'), Timestamp('2025-08-12 00:00:00'), Timestamp('2025-08-13 00:00:00'), Timestamp('2025-08-15 00:00:00'), Timestamp('2025-08-20 00:00:00'), Timestamp('2025-09-10 00:00:00'), Timestamp('2025-09-18 00:00:00'), Timestamp('2025-10-09 00:00:00'), Timestamp('2025-10-10 00:00:00'), Timestamp('2025-10-14 00:00:00'), Timestamp('2025-10-16 00:00:00'), Timestamp('2025-10-21 00:00:00'), Timestamp('2025-10-29 00:00:00'), Timestamp('2025-11-13 00:00:00'), Timestamp('2025-11-21 00:00:00'), Timestamp('2025-11-27 00:00:00'), Timestamp('2025-12-04 00:00:00')]
+
+  Column: 'End date (YYYY/MM/DD)'
+    Dtype: datetime64[ns]
+    Nulls: 0 (0.0%)
+    Distinct: 39
+    Values: [Timestamp('2025-02-04 00:00:00'), Timestamp('2025-02-17 00:00:00'), Timestamp('2025-02-21 00:00:00'), Timestamp('2025-02-24 00:00:00'), Timestamp('2025-02-28 00:00:00'), Timestamp('2025-03-03 00:00:00'), Timestamp('2025-03-05 00:00:00'), Timestamp('2025-03-13 00:00:00'), Timestamp('2025-03-25 00:00:00'), Timestamp('2025-03-27 00:00:00'), Timestamp('2025-04-16 00:00:00'), Timestamp('2025-05-08 00:00:00'), Timestamp('2025-05-09 00:00:00'), Timestamp('2025-05-19 00:00:00'), Timestamp('2025-05-20 00:00:00'), Timestamp('2025-05-22 00:00:00'), Timestamp('2025-05-28 00:00:00'), Timestamp('2025-06-11 00:00:00'), Timestamp('2025-06-19 00:00:00'), Timestamp('2025-07-01 00:00:00'), Timestamp('2025-07-11 00:00:00'), Timestamp('2025-07-16 00:00:00'), Timestamp('2025-07-31 00:00:00'), Timestamp('2025-08-12 00:00:00'), Timestamp('2025-08-13 00:00:00'), Timestamp('2025-08-15 00:00:00'), Timestamp('2025-08-20 00:00:00'), Timestamp('2025-09-10 00:00:00'), Timestamp('2025-09-18 00:00:00'), Timestamp('2025-10-09 00:00:00'), Timestamp('2025-10-10 00:00:00'), Timestamp('2025-10-16 00:00:00'), Timestamp('2025-10-17 00:00:00'), Timestamp('2025-10-21 00:00:00'), Timestamp('2025-10-29 00:00:00'), Timestamp('2025-11-13 00:00:00'), Timestamp('2025-11-21 00:00:00'), Timestamp('2025-11-27 00:00:00'), Timestamp('2025-12-04 00:00:00')]
+
+  Column: 'Booking/enrollment status'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 4
+    Values: ['Cancelled', 'Confirmed', 'No booking', 'Waiting list']
+
+  Column: 'Training Venue'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 18
+    Values: ["2nd  Floor Skills Lab , ICH Building, Red Cross War Memorial Children's Hospital", "2nd Floor Skills Lab , ICH Building, Red Cross War Memorial Children's Hospital", 'Auditorium, Room E28, Nursing  Management Hallway,Main Building George Hosp', 'Emergency unit seminar room, 2nd floor, Emergency unit, Red Cross Hospital', 'George Lodge', 'Hotel Sky', "J&J Function Hall, Staff Education Centre, Red Cross Children's Hospital", 'King George Hotel', 'MRC Conference Centre', 'Ocean Breeze Hotel & Conference Centre', 'Online via MS Teams', 'PDC Training Room', 'Prote Hotel, Marriott, King George Conference Centre', 'RCWMCH Skills Lab', 'SBU, Bellville Campus, Central Events & Conferencing , Rooibos venue', 'Southern Sun Cape Sun Hotel Cape Town', "Staff Education Centre, J&J Function Hall,Red Cross Children's Hospital", "UCT Skills Lab, 2nd Floor, ICH building, Red Cross Children's Hospital"]
+
+  Column: 'Presenter/Facilitator name and surname'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 42
+    Sample (first 15): ['NameCaefbeafca', 'NameDfcbccfffe', 'NameCffdddcbba', 'NameAcbccadceb', 'NameEcbbafecae', 'NameBcceaeedca', 'NameDaafbddccc', 'NameBdddfdcdad', 'NameBbdbebafab', 'NameBbcddacbcd', 'NameEcedafafdb', 'NameDccecfedad', 'NameFbdbfcdebc', 'NameCfcfffeebb', 'NameEdfddefdbe']
+
+  Column: 'Contracted Provider'
+    Dtype: object
+    Nulls: 316 (11.6%)
+    Distinct: 4
+    Values: ['Funding Partner', 'KTU', 'PDC', 'UCT KIDS']
+
+  Column: 'Funding Partner- If not PDC (eg. NDOH, Love Life, Soul City)'
+    Dtype: object
+    Nulls: 2387 (87.4%)
+    Distinct: 6
+    Values: ['Lovelife', 'NDOH', 'NDOH & WHO', 'NDOH and UNICEF', 'Private Provider Bayers', 'Sanofi']
+
+  Column: 'Coordinator'
+    Dtype: object
+    Nulls: 66 (2.4%)
+    Distinct: 2
+    Values: ['NameEdaacbcbbd', 'NameFfdcabdcea']
+
+  Column: 'Participant Surname'
+    Dtype: object
+    Nulls: 6 (0.2%)
+    Distinct: 1303
+    Sample (first 15): ['NameFebbdadafc', 'NameCfcafbbacb', 'NameEadabeffde', 'NameCbedddebde', 'NameDcfeaddcef', 'NameEcdbbcddcc', 'NameEddbeffaee', 'NameFadbabcbfb', 'NameEbacaecfde', 'NameFfbffaedab', 'NameAbeaffebea', 'NameEdcceafaae', 'NameBeecdfafda', 'NameCfafabdeee', 'NameBfefddebac']
+
+  Column: 'Participant First name'
+    Dtype: object
+    Nulls: 4 (0.1%)
+    Distinct: 1426
+    Sample (first 15): ['NameCbfcabfbbd', 'NameDabdaabacb', 'NameEfbeedafce', 'NameBcfccaaeac', 'NameAcdfcacfef', 'NameDbdcafcdcd', 'NameBbdbdcdffd', 'NameFbdfeebbcf', 'NameBfcbafcdbb', 'NameCddedebcbb', 'NameFdadcdcdec', 'NameAdbdcbebff', 'NameDfaebeeabd', 'NameBdaecbebce', 'NameBafdbffddb']
+
+  Column: 'Email Address'
+    Dtype: object
+    Nulls: 39 (1.4%)
+    Distinct: 1960
+    Sample (first 15): ['22dff2729085@example.org', 'c3a9c57053ef@example.org', '5123a53f46d1@example.org', 'b06fbd8baa8e@example.org', '95c0f2de439c@example.org', 'ba0e4f779fa3@example.org', 'aabed892384e@example.org', 'c75ff72cfac9@example.org', '25871a1e67b0@example.org', '6452656fea0f@example.org', '559bda73eebf@example.org', '20dbde13b0bc@example.org', 'e4be7f8dd6c0@example.org', '801408523d43@example.org', '044f476bc24b@example.org']
+
+  Column: 'Gender'
+    Dtype: object
+    Nulls: 98 (3.6%)
+    Distinct: 3
+    Values: ['Female', 'Male', 'Non-binary']
+
+  Column: 'Race'
+    Dtype: object
+    Nulls: 241 (8.8%)
+    Distinct: 9
+    Values: ['African', 'Asian', 'Colored', 'Coloured', 'Indian', 'Other', 'White', 'coloured', 'white']
+
+  Column: 'Disability'
+    Dtype: object
+    Nulls: 75 (2.7%)
+    Distinct: 2
+    Values: ['No', 'Yes']
+
+  Column: 'Employer Group'
+    Dtype: object
+    Nulls: 106 (3.9%)
+    Distinct: 7
+    Values: ['CoCT', 'HEI', 'NDOH', 'NGO/NPO', 'Other', 'Private', 'WCGHW']
+
+  Column: 'Employer details (eg: WCCN, Anova, Pollsmoor)'
+    Dtype: object
+    Nulls: 2489 (91.1%)
+    Distinct: 153
+    Sample (first 15): ['unemployed', 'University of Free State', 'Thelle Mogoerane Regional Hospital', 'Dora nginza hospital', 'Malawi Government- Ministry of Health', 'Polokwane West', 'Pietersburg hospital', 'SANDF', 'Anova Health', 'ShonaQuip', 'Westcoast District Municipality', 'MKem Medicine City', 'University of the Western Cape', 'CPUT', 'Border Management Authority']
+
+  Column: 'ID number'
+    Dtype: float64
+    Nulls: 231 (8.5%)
+    Distinct: 1649
+    Sample (first 15): [812365442961.0, 1613539765433.0, 6410317194715.0, 6132067613800.0, 1054291196117.0, 2496544157638.0, 1803047624620.0, 4463514528053.0, 2431345267464.0, 5659130754122.0, 3471012599015.0, 3792269236565.0, 829082811455.0, 431791514932.0, 6021465566222.0]
+
+  Column: 'Persal/Employee number'
+    Dtype: float64
+    Nulls: 144 (5.3%)
+    Distinct: 1651
+    Sample (first 15): [88205429.0, 43066733.0, 54446325.0, 26556148.0, 33311456.0, 9646137.0, 82341054.0, 82382251.0, 12820543.0, 11571535.0, 92180614.0, 20577164.0, 30212665.0, 41257291.0, 27106334.0]
+
+  Column: 'Professional Category'
+    Dtype: object
+    Nulls: 43 (1.6%)
+    Distinct: 45
+    Sample (first 15): ['Nurse', ' Nurse ', 'NURSE', 'Nursse', 'Doctor', 'Other', 'Doctr', ' Doctor ', 'Nurrse', 'Nuurse', 'Otheer', 'other', 'Nuse', 'Pharmacist', 'Nure']
+
+  Column: 'Profession'
+    Dtype: object
+    Nulls: 124 (4.5%)
+    Distinct: 47
+    Sample (first 15): ['Registered Professional Nurse (RPN)', 'Operational Manager (OM/OPM)', 'Enrolled Nurse (EN)', 'Clinical Nurse Practitioner (CNP)', 'Clinical Programme Coordinator', 'Registered Nurse', 'Professional Nurse (PN)', 'Assistant Nursing Manager', 'General Nurse', 'Medical Officer (MO)', 'General Physician (GP)', 'Medical Intern', 'Registrar', 'Dietitian', 'Medical Specialist']
+
+  Column: 'Job Title/Rank (if different)'
+    Dtype: object
+    Nulls: 1864 (68.3%)
+    Distinct: 504
+    Sample (first 15): ['Clinical Facilitaor', 'Clinical Facilitator', 'CBS Trainer', 'Diabestes Educator', 'Clinical Educator', 'CNP School Health', 'M.O Supervisor', 'Paediatric Medical Officer', 'Registrar in General Paediatrics', 'Community Dietitian', 'Senior Dietitian', 'Nutrition Coordinator', 'Chief dietitian', 'Dietitian Grade 3 (Pediatric Endocrine )', 'Therapeutic and Medical Support services programme coordinator']
+
+  Column: 'Professional Registration Number'
+    Dtype: object
+    Nulls: 163 (6.0%)
+    Distinct: 1774
+    Sample (first 15): ['PR-ac32002def', 'PR-16b6b541c3', 'PR-8e4b719704', 'PR-f61a6d3cc6', 'PR-42b79eaf9a', 'PR-a9fac01aa8', 'PR-c6cf602a48', 'PR-da100d6ddc', 'PR-f7f2c7992e', 'PR-ee02666984', 'PR-55fcebaa8e', 'PR-2e9968c691', 'PR-bff620058f', 'PR-0f3f6f25b4', 'PR-4ab7eb1aee']
+
+  Column: 'District'
+    Dtype: object
+    Nulls: 40 (1.5%)
+    Distinct: 73
+    Sample (first 15): ['Metro', 'Garden Route', 'Cape Winelands', 'metro', 'Other', 'West Coast', 'other', 'Overberg', ' Metro ', 'Cape Wiinelands', 'METRO', 'Cape Winelannds', 'Central Karoo', 'Metor', 'Graden Route']
+
+  Column: 'Sub-structure/ sub-district'
+    Dtype: object
+    Nulls: 923 (33.8%)
+    Distinct: 28
+    Values: ['Beaufort West', 'Bergrivier', 'Bitou', 'Breede Valley', 'Cape Agulhas', 'Cederberg', 'Drakenstein', 'George', 'Hessequa', 'Kannaland', 'Khayelitsha/Eastern (KESS)', 'Klipfontein/Mitchells Plain (KMPSS)', 'Knysna', 'Laingsburg', 'Langeberg', 'Matzikama', 'Mossel Bay', 'Northern/Tygerberg (NTSS)', 'Oudtshoorn', 'Overstrand', 'Prince Albert', 'Saldanha Bay', 'Southern/Western (SWSS)', 'Stellenbosch', 'Swartland', 'Swellendam', 'Theewaterskloof', 'Witzenberg']
+
+  Column: 'Facility'
+    Dtype: object
+    Nulls: 435 (15.9%)
+    Distinct: 448
+    Sample (first 15): ['WEST COAAST DISTRICT OFFICE', 'GROOTE SCHUUR HOSPITAL', 'TYGERBERG HOSPITAL', 'WALLACEDENE CLINIC', 'RETREAT CHC', 'GROOTE SCHUUR HOSIPTAL', 'DU NOON CHC', 'GARDEN ROUTE DISTRICT OFFICE', 'BREWELSKLOOF TB HOSPITAL', " RED CROSS WAR MEMORIAL CHILDREN'S HOSPITAL ", 'MITCHELLS PLAIN HOSPITAL', 'KUYASA CDC', 'KLIPFONTEIN AND MITCHELLS PLAIN SUBSTRUCTURE OFFICE (KMPSS)', 'CROSSROADS CDC', 'NOLUNGILE CDC']
+
+  Column: 'If Facility not on the list, please provide details (Facility name/work location)'
+    Dtype: object
+    Nulls: 2382 (87.2%)
+    Distinct: 245
+    Sample (first 15): ['Beaufort West District Office', 'Cape Alghulhas Sub District', 'Cederberg District Office', 'Rehabilitation Unit Cape Winelands', 'CoCT Parow District Office', 'Northern Tygerberg Sub District Office (CoCT)', 'SPU Early Life Unit', 'People Development Centre', 'National Department of Health', 'Parow Training Department Specialised Health', 'Mosselbay Sub District Office', 'West Coast District Municipality', 'Saldanha Bay Sub District Office', 'Provincial Office', 'SPC Early Life Unit']
+
+  Column: 'Supervisor Email'
+    Dtype: object
+    Nulls: 173 (6.3%)
+    Distinct: 1321
+    Sample (first 15): ['3a3cdc127c11@example.org', '98bbbbef3610@example.org', '5712503667c5@example.org', 'ad08a2334924@example.org', 'caaf373a4384@example.org', '623e92db10e1@example.org', '45abd0733e5d@example.org', '618971c082d1@example.org', '59e90c8eeed2@example.org', '2badcd025afb@example.org', '4823dc506477@example.org', 'fbb64b4599b6@example.org', '5e25355d1b03@example.org', '5a68e17c3aa4@example.org', '0da2af1e58ef@example.org']
+
+  Column: 'HRD Representative Email'
+    Dtype: object
+    Nulls: 160 (5.9%)
+    Distinct: 226
+    Sample (first 15): ['17b8d1121ce6@example.org', '750ee6b9e649@example.org', 'e5a3e27e7112@example.org', 'c6f0eaef3f1c@example.org', '38341da52224@example.org', '14ea336be4ba@example.org', 'ef0959f9501b@example.org', '8b42d9dff878@example.org', '9b77f0f1f3ec@example.org', 'a90ac49eade4@example.org', '44c6ab22ec59@example.org', 'd1aabf009f42@example.org', '9e0a461f696b@example.org', '7c8887e24836@example.org', '9124d4e05599@example.org']
+
+  Column: 'Attendance status'
+    Dtype: object
+    Nulls: 6 (0.2%)
+    Distinct: 5
+    Values: ['Attended', 'Cancelled', 'Non-Attendance', 'Partial attendance', 'Replacement']
+
+  Column: 'Certificate Number'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 2731
+    Sample (first 15): ['CERT-267c1ae98bff', 'CERT-de6c3d6a5dda', 'CERT-495e7ac92b58', 'CERT-25d61d8e89df', 'CERT-409bf3b9b5e3', 'CERT-2a419b837ce0', 'CERT-16948c44ebe5', 'CERT-dd2dbe6c038e', 'CERT-4c4359ddcb63', 'CERT-ddcd7f58e3ff', 'CERT-b3ee271399d8', 'CERT-c9cd964f4845', 'CERT-9d0036fb3555', 'CERT-dc2c7a3fa3ee', 'CERT-c02bbc27ee39']
+
+  Column: 'Date Electronic Certificate Issued to HRD (YYYY/MM/DD)'
+    Dtype: datetime64[ns]
+    Nulls: 2078 (76.1%)
+    Distinct: 1
+    Values: [Timestamp('2025-03-28 00:00:00')]
+
+  Column: 'Competency status (leave for now)'
+    Dtype: float64
+    Nulls: 2731 (100.0%)
+    Distinct: 0
+
+  Column: 'Date finalised (YYYY/MM/DD)'
+    Dtype: datetime64[ns]
+    Nulls: 2078 (76.1%)
+    Distinct: 1
+    Values: [Timestamp('2025-03-27 00:00:00')]
+
+
+--------------------------------------------------------------------------------
+SHEET: Capturer2
+--------------------------------------------------------------------------------
+ROWS: 6701
+COLUMNS: 37
+
+  Column: 'Captured By'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 1
+    Values: ['NameBdfdefbdab']
+
+  Column: 'Date first captured (YYYY/MM/DD)'
+    Dtype: datetime64[ns]
+    Nulls: 0 (0.0%)
+    Distinct: 74
+    Sample (first 15): [Timestamp('2025-02-21 00:00:00'), Timestamp('2025-02-24 00:00:00'), Timestamp('2025-02-26 00:00:00'), Timestamp('2025-02-27 00:00:00'), Timestamp('2025-02-28 00:00:00'), Timestamp('2025-03-03 00:00:00'), Timestamp('2025-03-04 00:00:00'), Timestamp('2025-03-06 00:00:00'), Timestamp('2025-03-11 00:00:00'), Timestamp('2025-03-12 00:00:00'), Timestamp('2025-03-13 00:00:00'), Timestamp('2025-03-14 00:00:00'), Timestamp('2025-03-27 00:00:00'), Timestamp('2025-03-31 00:00:00'), Timestamp('2025-04-14 00:00:00')]
+
+  Column: 'Course Name'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 497
+    Sample (first 15): ['Basic Life Support', ' Basic Life Support ', 'South African Triage Scale (SATS)', 'South  African  Triage  Scale  (SATS)', 'SOUTH AFRICAN TRIAGE SCALE (SATS)', 'Basi cLife Support', "Neonatal Resuscitation; Respiratory Distress and Jaundice for MO's and RN's", 'Management of a Difficult Client', 'Back to Basics for Enrolled Nurses', 'Management Of A Difficult Client', 'BACK TO BASICS FOR ENROLLED NURSES', "Neonatal Resuscitation; RespiratoryDistress and Jaundice for MO's and RN's", "Neonatal  Resuscitation;  Respiratory  Distress  and  Jaundice  for  MO's  and  RN's", 'Back to Basics forr Enrolled Nurses', 'Back to Basics for Enrolled Nuress']
+
+  Column: 'Method of Delivery (Training modality)'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 2
+    Values: ['Face to Face', 'Webinar']
+
+  Column: 'Start date (YYYY/MM/DD)'
+    Dtype: datetime64[ns]
+    Nulls: 0 (0.0%)
+    Distinct: 153
+    Sample (first 15): [Timestamp('2025-02-04 00:00:00'), Timestamp('2025-02-05 00:00:00'), Timestamp('2025-02-06 00:00:00'), Timestamp('2025-02-11 00:00:00'), Timestamp('2025-02-20 00:00:00'), Timestamp('2025-02-13 00:00:00'), Timestamp('2025-02-12 00:00:00'), Timestamp('2025-02-17 00:00:00'), Timestamp('2025-02-19 00:00:00'), Timestamp('2025-02-25 00:00:00'), Timestamp('2025-02-21 00:00:00'), Timestamp('2025-02-26 00:00:00'), Timestamp('2024-10-09 00:00:00'), Timestamp('2024-10-22 00:00:00'), Timestamp('2024-11-19 00:00:00')]
+
+  Column: 'End date (YYYY/MM/DD)'
+    Dtype: datetime64[ns]
+    Nulls: 0 (0.0%)
+    Distinct: 152
+    Sample (first 15): [Timestamp('2025-02-04 00:00:00'), Timestamp('2025-02-05 00:00:00'), Timestamp('2025-02-06 00:00:00'), Timestamp('2025-02-11 00:00:00'), Timestamp('2025-02-21 00:00:00'), Timestamp('2025-02-13 00:00:00'), Timestamp('2025-02-12 00:00:00'), Timestamp('2025-02-19 00:00:00'), Timestamp('2025-02-14 00:00:00'), Timestamp('2025-02-07 00:00:00'), Timestamp('2025-02-20 00:00:00'), Timestamp('2025-02-26 00:00:00'), Timestamp('2025-02-27 00:00:00'), Timestamp('2024-10-09 00:00:00'), Timestamp('2024-10-22 00:00:00')]
+
+  Column: 'Booking/enrollment status'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 1
+    Values: ['Confirmed']
+
+  Column: 'Training Venue'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 56
+    Sample (first 15): ['Loevenstein', 'Tygerbear Training Centre', 'King George Hotel', 'Professional Emergency Care Offices', 'STIAS', 'MS Teams', 'University of Stellenbosch Business School', 'Alexandra Hospital', 'Brewelskloof Nurses Home', 'Education Department , George', 'WCG Shared Services Centre', 'WCCN Athlone Campus', 'WCCN Boland Campus', 'WCCN Southern Cape Karoo Campus', 'PDC']
+
+  Column: 'Presenter/Facilitator name and surname'
+    Dtype: object
+    Nulls: 677 (10.1%)
+    Distinct: 95
+    Sample (first 15): ['NameEcedfeeebb', 'NameEdaefdeccd', 'NameCeabdcafac', 'NameDffcbdbadd', 'NameCcaaaaedef', 'NameBfaacaffec', 'NameFbbdbcfede', 'NameDecccfcbcd', 'NameAfadfccafd', 'NameDdaefddbbe', 'NameFbbeecdacf', 'NameAcfcbdedfb', 'NameEdcebbcaff', 'NameDdcccdadcb', 'NameFeacddabbe']
+
+  Column: 'Contracted Provider'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 6
+    Values: ['APCC', 'KTU', 'PDC', 'PDC Endorsed Provider', 'PEC', 'StellMed']
+
+  Column: 'Funding Partner- If not PDC (eg. NDOH, Love Life, Soul City)'
+    Dtype: float64
+    Nulls: 6701 (100.0%)
+    Distinct: 0
+
+  Column: 'Coordinator'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 2
+    Values: ['NameCabdaecbed', 'NameFaafaeecfe']
+
+  Column: 'Participant Surname'
+    Dtype: object
+    Nulls: 4 (0.1%)
+    Distinct: 2970
+    Sample (first 15): ['NameEdffbbceda', 'NameBffecbeaee', 'NameEfaabccefa', 'NameEbbcdfdeac', 'NameEedccafeeb', 'NameAaddfadede', 'NameFebbbbccfa', 'NameBbeadddefd', 'NameFcafaaffcb', 'NameDfbeffebce', 'NameCacaeaefbb', 'NameAbfefcfedc', 'NameEeeaeaacbe', 'NameCebfafaaee', 'NameBdffbaaedd']
+
+  Column: 'Participant First name'
+    Dtype: object
+    Nulls: 4 (0.1%)
+    Distinct: 3195
+    Sample (first 15): ['NameCfffcfecef', 'NameBdedfddede', 'NameDecdfebaaf', 'NameBaedeabbeb', 'NameBbbdecdbcf', 'NameCfcaddffeb', 'NameAfefaeacec', 'NameFdcefbbdff', 'NameDbaffaaeea', 'NameAedcefbaff', 'NameAcabafcdfd', 'NameBfcfacdfde', 'NameAcbfadeeea', 'NameFbeffcdfdf', 'NameDfadbeccea']
+
+  Column: 'Email Address'
+    Dtype: object
+    Nulls: 236 (3.5%)
+    Distinct: 4631
+    Sample (first 15): ['8711b0682208@example.org', '2feb0e92f2d7@example.org', '6e5f375ad336@example.org', '77b81da05fac@example.org', '2635dd919042@example.org', '727f6e668831@example.org', '5b5ce421ab45@example.org', 'bc89ca6100b0@example.org', 'd27777180945@example.org', 'ef799522aca7@example.org', '3b1ee78f0575@example.org', '78dd311bb301@example.org', '0572fb2ee06d@example.org', '46b439aaa481@example.org', '9575ca46bec1@example.org']
+
+  Column: 'Gender'
+    Dtype: object
+    Nulls: 143 (2.1%)
+    Distinct: 3
+    Values: ['Female', 'Male', 'Non-binary']
+
+  Column: 'Race'
+    Dtype: object
+    Nulls: 143 (2.1%)
+    Distinct: 5
+    Values: ['African', 'Asian', 'Coloured', 'Indian', 'White']
+
+  Column: 'Disability'
+    Dtype: object
+    Nulls: 221 (3.3%)
+    Distinct: 2
+    Values: ['No', 'Yes']
+
+  Column: 'Employer Group'
+    Dtype: object
+    Nulls: 31 (0.5%)
+    Distinct: 6
+    Values: ['CoCT', 'HEI', 'NGO/NPO', 'Other', 'Private', 'WCGHW']
+
+  Column: 'Employer details (eg: WCCN, Anova, Pollsmoor)'
+    Dtype: object
+    Nulls: 6666 (99.5%)
+    Distinct: 24
+    Values: ['2 Military Hospital', 'Bethesda', 'CANSA', 'Capel Lavita', 'Charlotte Maxeke Hospital', 'Child Welfare SA Grabouw', 'Cradock Hospital', 'Department of Correctional services', 'Free State Premiers Office', 'GVW Builders and Electrical', 'Kraaifontein ROAR and Treatment Centre', 'LimCareWell', 'Refi Restore PTY Ltd', 'Self Employed', 'Stellenbosch University', 'Thulile Wellness Counselling', 'Thuthuzela', 'UCT', 'UFC', 'University of Pretoria', 'University of Western Cape', 'University of Yaounde 1', 'Wits University', 'unemployed']
+
+  Column: 'ID number'
+    Dtype: float64
+    Nulls: 525 (7.8%)
+    Distinct: 4157
+    Sample (first 15): [9186524692682.0, 6243425366362.0, 4515541394423.0, 2618854379661.0, 2863181393457.0, 5040654563414.0, 6635519318700.0, 4459706770035.0, 5552376018196.0, 9364445273365.0, 134465187645.0, 8931023822656.0, 1822055602346.0, 3619223066412.0, 3708503984601.0]
+
+  Column: 'Persal/Employee number'
+    Dtype: float64
+    Nulls: 763 (11.4%)
+    Distinct: 3739
+    Sample (first 15): [26357296.0, 91616298.0, 16222294.0, 41941691.0, 60530565.0, 26367083.0, 1789256.0, 47459385.0, 74752554.0, 13644283.0, 51038124.0, 95344283.0, 15075828.0, 82670112.0, 63362119.0]
+
+  Column: 'Professional Category'
+    Dtype: object
+    Nulls: 62 (0.9%)
+    Distinct: 49
+    Sample (first 15): ['Doctor', 'Nurse', 'Nusre', ' Nurse ', 'Nruse', 'doctor', 'Nure', 'Nrse', 'Other', 'DOCTOR', 'Doctoor', 'Nuse', 'OTHER', 'NURSE', 'Nursse']
+
+  Column: 'Profession'
+    Dtype: object
+    Nulls: 359 (5.4%)
+    Distinct: 44
+    Sample (first 15): ['Medical Officer (MO)', 'Registered Professional Nurse (RPN)', 'Professional Nurse (PN)', 'Clinical Nurse Practitioner (CNP)', 'Registered Nurse', 'Enrolled Nursing assistant/auxiliary (ENA)', 'Enrolled Nurse (EN)', 'Dentist', 'Other clinical', 'Midwife', 'Medical Intern', 'Medical Student', 'Operational Manager (OM/OPM)', 'Assistant Manager Nursing (AMN)', 'Radiographer']
+
+  Column: 'Job Title/Rank (if different)'
+    Dtype: object
+    Nulls: 6210 (92.7%)
+    Distinct: 205
+    Sample (first 15): ['Operational Manager', 'Family Physician', 'Assistant Manager Nursing', 'Infection Prevention Coordinator', 'Acting Chief Medical Orthotist and prosthetist', 'Comprehensive Health Programme Manager', 'Clinical Facilitator', 'Lecturer', 'Family Medicine Registrar', 'Vertical transmission prevention coordinator', 'Clinical Programme Coodinator', 'Assistant Director', 'Deputy Mangager Nursing', 'Clinical Mentor', 'Station Manager']
+
+  Column: 'Professional Registration Number'
+    Dtype: object
+    Nulls: 1284 (19.2%)
+    Distinct: 3508
+    Sample (first 15): ['PR-f8f8d79f97', 'PR-5f5c0f9715', 'PR-84b8859e4b', 'PR-1a1434f41b', 'PR-29d4401bfe', 'PR-c8047b1713', 'PR-1f0cd04279', 'PR-18c68eda2e', 'PR-fe0986f0f0', 'PR-cd330da3ef', 'PR-d39a288b8b', 'PR-73b7671ac3', 'PR-48d43542d2', 'PR-d6ce698105', 'PR-176d79a537']
+
+  Column: 'District'
+    Dtype: object
+    Nulls: 195 (2.9%)
+    Distinct: 79
+    Sample (first 15): ['Metro', 'Mtero', 'metro', 'METRO', 'Mero', 'Meto', 'Cape Winelands', 'Overberg', 'Central Karoo', 'Gardne Route', 'Meetro', 'Garden Route', 'Garden  Route', 'Metrro', 'Garedn Route']
+
+  Column: 'Sub-structure/ sub-district'
+    Dtype: object
+    Nulls: 5102 (76.1%)
+    Distinct: 48
+    Sample (first 15): ['Northern Tygerberg', 'Klipfontein Mitchells Plain', 'Southern Western', 'Khayelitsha Eastern', 'Beaufort West', 'Theewaterskloof', 'Mossel Bay SD', 'Stellenbosch Sub District', 'Knysna & Bitou', 'Knysna&Bitou SD', 'Laingsburg', 'Swartland Sub District', 'Mossel Bay Sub District', 'Mossel Bay sub District', 'Murraysburg']
+
+  Column: 'Facility'
+    Dtype: object
+    Nulls: 583 (8.7%)
+    Distinct: 654
+    Sample (first 15): ['BRACKENGATE INTERMEDIATE CARE', 'DURBANVILLE CDC', 'GROOTE SCHUUR HOSPITAL', 'HANOVER PARK CHC', ' HANOVER PARK CHC ', 'HOUT BAY HARBOUR CDC', 'KARL BREMER HOSPITAL', 'KRAAIFONTEN CHC', 'KRAAIFONTEIN MOU - MATERNITY WARD', 'LOTUS RIVER CDC', 'MITCHELLS PLAIN CHC', 'PROTEA PARK CDC', 'PROEA PARK CDC', 'TYGERBERG HOSPITAL', 'Western Cape College of Nursing (WCCN)']
+
+  Column: 'If Facility not on the list, please provide details (Facility name/work location)'
+    Dtype: object
+    Nulls: 6548 (97.7%)
+    Distinct: 71
+    Sample (first 15): ['Kraaifontein ROAR and Treatment Centre', 'Western Cape Department of Health  - Medico- Legal (Head Office)', 'EMS', 'Cederberg Sub district', 'WC EMS Metro', 'Pinelands EMS', 'Cederberg Sub district Office', 'Swellendam and Cape Agulhas Sub district', 'TB/HIV Care', 'Living Hope', 'Clanwilliam Sub-district Office', 'Nurse Next Door', 'Capel Lavita', 'Bethesda', 'Bitou Clinics']
+
+  Column: 'Supervisor Email'
+    Dtype: object
+    Nulls: 1314 (19.6%)
+    Distinct: 2145
+    Sample (first 15): ['4998cb56aee2@example.org', '135ef0bb8c11@example.org', '2badcd025afb@example.org', 'c90f54a6886e@example.org', '56b51d260fa6@example.org', 'e0e232f91335@example.org', '5b5ce421ab45@example.org', 'b6f07694bd4d@example.org', '2e131747e5fe@example.org', 'e508d6a0635f@example.org', '6a330fcd1ee1@example.org', 'ac56044654df@example.org', '8d02da14f1db@example.org', '476464a00061@example.org', '8319cd5694c2@example.org']
+
+  Column: 'HRD Representative Email'
+    Dtype: object
+    Nulls: 1032 (15.4%)
+    Distinct: 401
+    Sample (first 15): ['f23dc95c77bd@example.org', '485b0f18b960@example.org', '12e4bcf539c9@example.org', 'ae4f5a40781a@example.org', 'cee52c327c3d@example.org', '82262390cdd0@example.org', 'ac79dd4bd28f@example.org', 'b9a159d04f76@example.org', 'f87bdf438261@example.org', '968035c8c124@example.org', '129686c2d0c9@example.org', '6fdddd97551a@example.org', '8b3a6da05b38@example.org', 'd1b303797570@example.org', 'bb28083eccd6@example.org']
+
+  Column: 'Attendance status'
+    Dtype: object
+    Nulls: 35 (0.5%)
+    Distinct: 4
+    Values: ['Attended', 'Non-Attendance', 'Partial attendance', 'Replacement']
+
+  Column: 'Certificate Number'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 6701
+    Sample (first 15): ['CERT-09b5cdfd1c3e', 'CERT-0887b4466635', 'CERT-fc9edead844b', 'CERT-88769cd9f3a7', 'CERT-dae0dea3416e', 'CERT-8f69b9fb9a21', 'CERT-159aa6eeba06', 'CERT-ac9d5c53d24c', 'CERT-d02ea92aac1c', 'CERT-1973b0ea58e9', 'CERT-5c00ae2f8f45', 'CERT-936b13cf4396', 'CERT-465d403c6d10', 'CERT-c9e078e7c87f', 'CERT-2a33b54e85a9']
+
+  Column: 'Date Electronic Certificate Issued to HRD (YYYY/MM/DD)'
+    Dtype: float64
+    Nulls: 6701 (100.0%)
+    Distinct: 0
+
+  Column: 'Competency status (leave for now)'
+    Dtype: float64
+    Nulls: 6701 (100.0%)
+    Distinct: 0
+
+  Column: 'Date finalised (YYYY/MM/DD)'
+    Dtype: float64
+    Nulls: 6701 (100.0%)
+    Distinct: 0
+
+
+--------------------------------------------------------------------------------
+SHEET: Capturer3
+--------------------------------------------------------------------------------
+ROWS: 2175
+COLUMNS: 37
+
+  Column: 'Captured By'
+    Dtype: object
+    Nulls: 35 (1.6%)
+    Distinct: 1
+    Values: ['NameEfbcfaadfb']
+
+  Column: 'Date first captured (YYYY/MM/DD)'
+    Dtype: datetime64[ns]
+    Nulls: 35 (1.6%)
+    Distinct: 21
+    Values: [Timestamp('2025-02-21 00:00:00'), Timestamp('2025-03-11 00:00:00'), Timestamp('2025-03-12 00:00:00'), Timestamp('2025-03-13 00:00:00'), Timestamp('2025-03-26 00:00:00'), Timestamp('2025-03-27 00:00:00'), Timestamp('2025-03-28 00:00:00'), Timestamp('2025-03-31 00:00:00'), Timestamp('2025-04-17 00:00:00'), Timestamp('2025-05-28 00:00:00'), Timestamp('2025-06-02 00:00:00'), Timestamp('2025-06-19 00:00:00'), Timestamp('2025-07-08 00:00:00'), Timestamp('2025-07-31 00:00:00'), Timestamp('2025-08-25 00:00:00'), Timestamp('2025-09-03 00:00:00'), Timestamp('2025-09-22 00:00:00'), Timestamp('2025-10-06 00:00:00'), Timestamp('2025-10-31 00:00:00'), Timestamp('2025-11-06 00:00:00'), Timestamp('2025-12-02 00:00:00')]
+
+  Column: 'Course Name'
+    Dtype: object
+    Nulls: 35 (1.6%)
+    Distinct: 166
+    Sample (first 15): ['Laundry Service Webinar Condemning and Interim Linen Stores', 'Laundry Service WebinarC ondemning and Interim Linen Stores', 'Laundry Service Webinar Condemning And Interim Linen Stores', 'On Premises Laundries (OPL) and Central Laundries', 'On Premises Laundries (OPL) and Cetral Laundries', 'On  Premises Laundries (OPL) and Central Laundries', 'ON PREMISES LAUNDRIES (OPL) AND CENTRAL LAUNDRIES', 'on premises laundries (opl) and central laundries', 'On Premises Laundries (Opl) And Central Laundries', 'Group Empowerment and Training (GREAT) for Diabetes', 'Group Empowerment and Trining (GREAT) for Diabetes', 'group empowerment and training (great) for diabetes', 'GroupE mpowerment and Training (GREAT) for Diabetes', 'CHW-Communicable Diseases Module (M5) Part 1: HIV and Other STIs', 'CHW-Communicable Diseases Module(M5) Part 1: HIV and Other STIs']
+
+  Column: 'Method of Delivery (Training modality)'
+    Dtype: object
+    Nulls: 35 (1.6%)
+    Distinct: 2
+    Values: ['Face to Face', 'Webinar']
+
+  Column: 'Start date (YYYY/MM/DD)'
+    Dtype: datetime64[ns]
+    Nulls: 35 (1.6%)
+    Distinct: 22
+    Values: [Timestamp('2024-10-08 00:00:00'), Timestamp('2024-10-10 00:00:00'), Timestamp('2025-01-14 00:00:00'), Timestamp('2025-01-21 00:00:00'), Timestamp('2025-02-26 00:00:00'), Timestamp('2025-03-12 00:00:00'), Timestamp('2025-03-18 00:00:00'), Timestamp('2025-04-09 00:00:00'), Timestamp('2025-05-21 00:00:00'), Timestamp('2025-05-28 00:00:00'), Timestamp('2025-05-29 00:00:00'), Timestamp('2025-07-08 00:00:00'), Timestamp('2025-07-31 00:00:00'), Timestamp('2025-08-19 00:00:00'), Timestamp('2025-08-26 00:00:00'), Timestamp('2025-09-17 00:00:00'), Timestamp('2025-09-23 00:00:00'), Timestamp('2025-09-25 00:00:00'), Timestamp('2025-09-29 00:00:00'), Timestamp('2025-09-30 00:00:00'), Timestamp('2025-11-05 00:00:00'), Timestamp('2025-11-26 00:00:00')]
+
+  Column: 'End date (YYYY/MM/DD)'
+    Dtype: datetime64[ns]
+    Nulls: 35 (1.6%)
+    Distinct: 22
+    Values: [Timestamp('2024-10-08 00:00:00'), Timestamp('2024-10-10 00:00:00'), Timestamp('2025-01-14 00:00:00'), Timestamp('2025-01-21 00:00:00'), Timestamp('2025-02-28 00:00:00'), Timestamp('2025-03-14 00:00:00'), Timestamp('2025-03-18 00:00:00'), Timestamp('2025-04-09 00:00:00'), Timestamp('2025-05-21 00:00:00'), Timestamp('2025-05-28 00:00:00'), Timestamp('2025-05-29 00:00:00'), Timestamp('2025-07-08 00:00:00'), Timestamp('2025-07-31 00:00:00'), Timestamp('2025-08-19 00:00:00'), Timestamp('2025-08-26 00:00:00'), Timestamp('2025-09-17 00:00:00'), Timestamp('2025-09-23 00:00:00'), Timestamp('2025-09-25 00:00:00'), Timestamp('2025-09-29 00:00:00'), Timestamp('2025-09-30 00:00:00'), Timestamp('2025-11-05 00:00:00'), Timestamp('2025-11-26 00:00:00')]
+
+  Column: 'Booking/enrollment status'
+    Dtype: object
+    Nulls: 2086 (95.9%)
+    Distinct: 2
+    Values: ['Confirmed', 'No booking']
+
+  Column: 'Training Venue'
+    Dtype: object
+    Nulls: 35 (1.6%)
+    Distinct: 7
+    Values: ['Caledon Casino; The Earl Room', 'Merweville Clinic', 'Ms Teams Online', 'Protea Hotel King George, George', 'Right to Care Office', 'Stellenbosch University, Ukwanda in Worcester', 'Tygerbear Training Centre']
+
+  Column: 'Presenter/Facilitator name and surname'
+    Dtype: object
+    Nulls: 272 (12.5%)
+    Distinct: 18
+    Values: ['NameAbfdecfcce', 'NameAeeaeadfba', 'NameBbfccdcecc', 'NameBcdcadafbb', 'NameBdcbefdcea', 'NameBebfdfebae', 'NameCafdbbfece', 'NameCedfbafbea', 'NameDabdebbcff', 'NameDacedfdddb', 'NameDbcfcbebbd', 'NameDcddaccfbd', 'NameEaabfbeefc', 'NameEadcbfbcbb', 'NameEbcdfddabd', 'NameEefadcffaa', 'NameFefbbdfaef', 'NameFfefcbafef']
+
+  Column: 'Contracted Provider'
+    Dtype: object
+    Nulls: 315 (14.5%)
+    Distinct: 4
+    Values: ['KTU', 'PDC', 'PDC Endorsed Provider', 'StellMed']
+
+  Column: 'Funding Partner- If not PDC (eg. NDOH, Love Life, Soul City)'
+    Dtype: float64
+    Nulls: 2175 (100.0%)
+    Distinct: 0
+
+  Column: 'Coordinator'
+    Dtype: object
+    Nulls: 35 (1.6%)
+    Distinct: 2
+    Values: ['NameCdafffdccd', 'NameEfeeeabcef']
+
+  Column: 'Participant Surname'
+    Dtype: object
+    Nulls: 35 (1.6%)
+    Distinct: 1260
+    Sample (first 15): ['NameEbddbdbdbd', 'NameFebcffecfb', 'NameCeeefbcadb', 'NameEefdebbdca', 'NameEeadaacbab', 'NameBfccddbdbd', 'NameCcaafadbaf', 'NameDabafbcade', 'NameDbeccddeac', 'NameBddffbcacc', 'NameEdbcdddbcd', 'NameCfaaffaccd', 'NameBdffdfbfaf', 'NameEfdffffeea', 'NameAcdeedcdaa']
+
+  Column: 'Participant First name'
+    Dtype: object
+    Nulls: 37 (1.7%)
+    Distinct: 1337
+    Sample (first 15): ['NameDdecafbedb', 'NameFabdfddaab', 'NameBabdecbddf', 'NameCebffdbcae', 'NameCcceaafbfc', 'NameFffafccadc', 'NameAbcecfcbbb', 'NameBbaeafcdfc', 'NameAcfdccfefb', 'NameAebefdadfe', 'NameCcecbbadee', 'NameFffabdafbe', 'NameAbbbfdcdad', 'NameCedfcdfbaf', 'NameDaaaecfecb']
+
+  Column: 'Email Address'
+    Dtype: object
+    Nulls: 56 (2.6%)
+    Distinct: 1456
+    Sample (first 15): ['50a10954a374@example.org', '1829baf8d14f@example.org', '42a3ff3db340@example.org', '12a2cf1a73cc@example.org', '2487a9bfb392@example.org', 'f752f230c1bd@example.org', '0ec91446b41e@example.org', '5cffc7ace817@example.org', '0e73cb28eaf2@example.org', '8ad77595e3c6@example.org', 'f1000e629960@example.org', '22a14505d083@example.org', '90b1f3e55afa@example.org', '18a4cc4e9bfb@example.org', '4bce21e600bb@example.org']
+
+  Column: 'Gender'
+    Dtype: object
+    Nulls: 49 (2.3%)
+    Distinct: 2
+    Values: ['Female', 'Male']
+
+  Column: 'Race'
+    Dtype: object
+    Nulls: 136 (6.3%)
+    Distinct: 4
+    Values: ['African', 'Coloured', 'Indian', 'White']
+
+  Column: 'Disability'
+    Dtype: object
+    Nulls: 228 (10.5%)
+    Distinct: 2
+    Values: ['No', 'Yes']
+
+  Column: 'Employer Group'
+    Dtype: object
+    Nulls: 44 (2.0%)
+    Distinct: 7
+    Values: ['CoCT', 'Correctional Services (DCS)', 'HEI', 'NGO/NPO', 'Other', 'Private', 'WCGHW']
+
+  Column: 'Employer details (eg: WCCN, Anova, Pollsmoor)'
+    Dtype: object
+    Nulls: 2163 (99.4%)
+    Distinct: 1
+    Values: ['Right to Care']
+
+  Column: 'ID number'
+    Dtype: float64
+    Nulls: 71 (3.3%)
+    Distinct: 1409
+    Sample (first 15): [6114746306125.0, 2504535244717.0, 3134652902115.0, 3531374232763.0, 7257064434923.0, 1563036387745.0, 3648635165641.0, 2428091015852.0, 5080435388100.0, 9453530642239.0, 1616133944838.0, 6424742316441.0, 2430633227089.0, 181471222666.0, 6384445660531.0]
+
+  Column: 'Persal/Employee number'
+    Dtype: float64
+    Nulls: 185 (8.5%)
+    Distinct: 1282
+    Sample (first 15): [12265486.0, 25172312.0, 43431525.0, 30315352.0, 24517512.0, 44631644.0, 21646303.0, 36178854.0, 72357714.0, 66602238.0, 60657241.0, 81426921.0, 41123805.0, 41936184.0, 37864534.0]
+
+  Column: 'Professional Category'
+    Dtype: object
+    Nulls: 38 (1.7%)
+    Distinct: 37
+    Values: [' Doctor ', ' Nurse ', ' Other ', ' Pharmacist ', 'Docor', 'Docotr', 'Doctor', 'Doctr', 'Docttor', 'Dooctor', 'NURSE', 'Nrse', 'Nruse', 'Nure', 'Nures', 'Nurrse', 'Nurse', 'Nuse', 'Nuurse', 'OTHER', 'Oher', 'Ohter', 'Otehr', 'Oter', 'Otheer', 'Other', 'Othher', 'Othr', 'Othre', 'Otther', 'PHARMACIST', 'Pharmaacist', 'Pharmacist', 'doctor', 'nurse', 'other', 'pharmacist']
+
+  Column: 'Profession'
+    Dtype: object
+    Nulls: 70 (3.2%)
+    Distinct: 43
+    Sample (first 15): ['General Assistant (GA)', 'Other general', 'Admin Clerk', 'Housekeeper', 'Quality Assurance Manager', 'Household Aid', 'Registered Professional Nurse (RPN)', 'Enrolled Nurse (EN)', 'Dietitian', 'Clinical Nurse Practitioner (CNP)', 'Medical Officer (MO)', 'Health Promoter', 'Professional Nurse (PN)', 'Midwife', 'Registered Counsellor']
+
+  Column: 'Job Title/Rank (if different)'
+    Dtype: object
+    Nulls: 255 (11.7%)
+    Distinct: 731
+    Sample (first 15): ['Cleaner', 'Administrative Officer', 'Admin Clerk Support', 'Linen Supervisor', 'Support Admin Intern', 'Admin Officer', 'Contract Manager', 'Housekeeping Supervisor', 'Quality Assurance Managers', 'Housekeeping supervisor', 'Housekeeping Suervisor', 'dep dir sup serv', 'ASD: Support Services', 'Assistant Director: Support Services', 'Control Laundry Manager']
+
+  Column: 'Professional Registration Number'
+    Dtype: object
+    Nulls: 323 (14.9%)
+    Distinct: 1217
+    Sample (first 15): ['PR-b07c4ac5a2', 'PR-f0daee8279', 'PR-88dcedd1eb', 'PR-e72bf0398e', 'PR-d3f1bcab93', 'PR-32f64c9498', 'PR-72a4ad7de1', 'PR-2a94b9e1c0', 'PR-aaff7b90fc', 'PR-959246c0bf', 'PR-debf36192c', 'PR-e9018bd07f', 'PR-0bdca5789a', 'PR-feadbed386', 'PR-7044e9e65c']
+
+  Column: 'District'
+    Dtype: object
+    Nulls: 103 (4.7%)
+    Distinct: 55
+    Sample (first 15): ['WEST COAST', 'Metro', 'Cape Winelands', 'West Coast', 'Overberg', 'Garden Route', 'Central Karoo', 'West  Coast', 'METRO', 'Cape  Winelands', 'Mtero', 'Metrro', 'Meto', 'Central Kaaroo', 'Garden Rotue']
+
+  Column: 'Sub-structure/ sub-district'
+    Dtype: object
+    Nulls: 1482 (68.1%)
+    Distinct: 49
+    Sample (first 15): ['Swartland Sub-district', 'Northern Tygerberg', 'Langeberg Sub-district', 'Saldanha Bay Sub-district', 'Breede Valley Sub-district', 'Swellendam Sub-district', 'George Sub-district', 'Southern Western', 'Beaufort West Sub-district', 'Cederberg Sub-district', 'Stellenbosch Sub-district', 'Klipfontein Mitchells Plain', 'Drakenstein Sub-district', 'Prince Albert Sub-district', 'Matzikama Sub-district']
+
+  Column: 'Facility'
+    Dtype: object
+    Nulls: 659 (30.3%)
+    Distinct: 332
+    Sample (first 15): ['MALMESBURY CDC', 'Orthotic Prosthetic Centre', 'Montagu Hospital', 'Vredenburg Hospital', 'Tygerberg Oral Health Centre', 'brewelskloof hospital', 'Worcester Hospital', 'Otto du Plessis Hospital', 'Garden Route District', 'False bay Hospital', 'Caledon Hospital', 'Tygerberg hospital', 'Wesfleur Hospital', 'Tygerberrg Hospital', 'Beaufort West Hospital']
+
+  Column: 'If Facility not on the list, please provide details (Facility name/work location)'
+    Dtype: object
+    Nulls: 191 (8.8%)
+    Distinct: 812
+    Sample (first 15): ['DP MARAIS HOSPITAL', 'Grabouw CHC', 'Hanover and Gugulethus MOU', 'Worcester Hospital', 'Victoria Hospital', 'Living   Hope', 'Khayelitsha CHC', 'Harry Comay Hospital', 'Groote Schuur Hospital | University of Western Cape', 'ceres hospital', 'Right to Care', 'Masiphumulele  Community Deep South', 'Malmesbury', 'Badisa HBC Riviersonderend', 'Brewelskloof Hospital']
+
+  Column: 'Supervisor Email'
+    Dtype: object
+    Nulls: 235 (10.8%)
+    Distinct: 1157
+    Sample (first 15): ['ad8ad77f00ab@example.org', 'c19df0392ad1@example.org', '9ecc79cf75a9@example.org', '21b03523b6d3@example.org', '4e1e086541c6@example.org', '0a9d9cc21161@example.org', '18a25b402574@example.org', 'a778baf0c2c5@example.org', 'ad68efe26303@example.org', 'b3493a4bde31@example.org', 'a80f163ec567@example.org', 'b5b4fc823e4f@example.org', 'd2686cbbfeb2@example.org', 'b6a6613123ea@example.org', 'a4970077e0df@example.org']
+
+  Column: 'HRD Representative Email'
+    Dtype: object
+    Nulls: 349 (16.0%)
+    Distinct: 1038
+    Sample (first 15): ['5e33a84fbc24@example.org', 'da557824280c@example.org', '4bbe1eb864d1@example.org', '6d4f52356afb@example.org', '5fdad7d5921b@example.org', '6fdddd97551a@example.org', 'bceac12be3e4@example.org', '53fc9edb4b79@example.org', 'b8e7226075c0@example.org', '17605d9f9ca9@example.org', 'c38c900bae39@example.org', 'aa365e914d49@example.org', '6c18f330a29e@example.org', '74210617e323@example.org', '38ac519917b0@example.org']
+
+  Column: 'Attendance status'
+    Dtype: object
+    Nulls: 36 (1.7%)
+    Distinct: 3
+    Values: ['Attended', 'Non-Attendance', 'Replacement']
+
+  Column: 'Certificate Number'
+    Dtype: object
+    Nulls: 101 (4.6%)
+    Distinct: 1899
+    Sample (first 15): ['CERT-2f137c6157ff', 'CERT-459bebd00893', 'CERT-b624689375fa', 'CERT-6811279e17eb', 'CERT-e2aaf8a0ed28', 'CERT-bdde4f33fc1d', 'CERT-bc9da956be6e', 'CERT-f953c44cfc3c', 'CERT-1d670af3e8e8', 'CERT-f45e43248de9', 'CERT-2017ddcf74ef', 'CERT-ceb35323239b', 'CERT-0666aff35d21', 'CERT-8ecc8506c92b', 'CERT-86d89218695b']
+
+  Column: 'Date Electronic Certificate Issued to HRD (YYYY/MM/DD)'
+    Dtype: datetime64[ns]
+    Nulls: 2131 (98.0%)
+    Distinct: 1
+    Values: [Timestamp('2025-03-25 00:00:00')]
+
+  Column: 'Competency status (leave for now)'
+    Dtype: float64
+    Nulls: 2175 (100.0%)
+    Distinct: 0
+
+  Column: 'Date finalised (YYYY/MM/DD)'
+    Dtype: float64
+    Nulls: 2175 (100.0%)
+    Distinct: 0
+
+
+================================================================================
+FILE: CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx
+TYPE: Excel
+RELATIVE PATH: Community Health Worker Completions\CHW Training Attendance-West Coast-Oct 2025_SCRUBBED.xlsx
+SIZE: 107.5 KB
+================================================================================
+SHEETS: ['Training Attendance', 'lu_District', 'lu_Employer', 'lu_Facility', 'lu_General', 'lu_Profession']
+
+--------------------------------------------------------------------------------
+SHEET: Training Attendance
+--------------------------------------------------------------------------------
+ROWS: 23
+COLUMNS: 49
+
+  Column: 'Date Submitted: ____2025/10/28____________________'
+    Dtype: object
+    Nulls: 22 (95.7%)
+    Distinct: 1
+    Values: ['Participant number']
+
+  Column: 'Unnamed: 1'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 15
+    Values: ['LastAabaecffea', 'LastAeefdaccba', 'LastBbaccdeebf', 'LastBbbffdfeeb', 'LastBbfccacaff', 'LastBdcfecdabd', 'LastCcdbabfeeb', 'LastDacdfefcea', 'LastDefcedddac', 'LastEaccdfdfaa', 'LastEcebafcade', 'LastEdfedfabcc', 'LastEefeadedee', 'LastFfcdccbcab', 'Participant Surname']
+
+  Column: 'Unnamed: 2'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 21
+    Values: ['FirstAbcedaedff', 'FirstAbfbbdfdeb', 'FirstAcfcddceda', 'FirstAecfceabba', 'FirstAfabfaeaad', 'FirstBaeaacefae', 'FirstCaeaebecdb', 'FirstCbbbaabcaa', 'FirstCcededbfda', 'FirstDaaddeafbd', 'FirstDebabecded', 'FirstDefbafcafa', 'FirstEbbbfbbefd', 'FirstEbdfdefeda', 'FirstEcbcefdbca', 'FirstEebcbcffcc', 'FirstEefeadbfba', 'FirstEfbcfbeabc', 'FirstFacffcddaf', 'FirstFdcfafcfcd', 'Participant First name']
+
+  Column: 'Unnamed: 3'
+    Dtype: object
+    Nulls: 22 (95.7%)
+    Distinct: 1
+    Values: ['Email Address']
+
+  Column: 'Unnamed: 4'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 2
+    Values: ['Female', 'Gender']
+
+  Column: 'Unnamed: 5'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 2
+    Values: ['Coloured', 'Race']
+
+  Column: 'Unnamed: 6'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 2
+    Values: ['Disability', 'No']
+
+  Column: 'Unnamed: 7'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 2
+    Values: ['Employer Group', 'NGO/NPO']
+
+  Column: 'Unnamed: 8'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 2
+    Values: ['Diakonale Nuwerus', 'Employer details (e.g.: Right to care, TBHIVCare, ACVV)']
+
+  Column: 'Unnamed: 9'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 21
+    Values: ['0519411407623', '0615722391287', '2235651522456', '2822231270733', '3267161307753', '3802452304737', '4093236811021', '4503424676312', '4555932317231', '4616567689553', '4656355766234', '5422218281847', '5522264076687', '6336459633110', '6558675583423', '7361691822953', '7783185163507', '8321046914529', '8337610250346', '9231623834146', 'ID number']
+
+  Column: 'Unnamed: 10'
+    Dtype: object
+    Nulls: 22 (95.7%)
+    Distinct: 1
+    Values: ['Employee number']
+
+  Column: 'Unnamed: 11'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 2
+    Values: ['Community Health Worker (CHW)', 'Profession']
+
+  Column: 'Unnamed: 12'
+    Dtype: object
+    Nulls: 22 (95.7%)
+    Distinct: 1
+    Values: ['Job Title (if different)']
+
+  Column: 'Unnamed: 13'
+    Dtype: object
+    Nulls: 22 (95.7%)
+    Distinct: 1
+    Values: ['Professional Registration Number (N/A if no registration number)']
+
+  Column: 'Unnamed: 14'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 2
+    Values: ['District', 'West Coast']
+
+  Column: 'Unnamed: 15'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 2
+    Values: ['Matzikama', 'Sub-structure/sub-district']
+
+  Column: 'Unnamed: 16'
+    Dtype: object
+    Nulls: 22 (95.7%)
+    Distinct: 1
+    Values: ['Facility']
+
+  Column: 'Unnamed: 17'
+    Dtype: object
+    Nulls: 22 (95.7%)
+    Distinct: 1
+    Values: ['If facility name not on list, please provide details (Facility name/work location)']
+
+  Column: 'Unnamed: 18'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 2
+    Values: ['ME Laubscher', 'NPO Supervisor Email']
+
+  Column: '1-CHW- Introductory Module (M1)'
+    Dtype: object
+    Nulls: 22 (95.7%)
+    Distinct: 1
+    Values: ['1- Start date (YYYY/MM/DD)']
+
+  Column: 'Unnamed: 20'
+    Dtype: object
+    Nulls: 22 (95.7%)
+    Distinct: 1
+    Values: ['1-Facilitator/Trainer name']
+
+  Column: '2-CHW- Healthy Conversations Module (M2)'
+    Dtype: object
+    Nulls: 22 (95.7%)
+    Distinct: 1
+    Values: ['2-Start date (YYYY/MM/DD)']
+
+  Column: 'Unnamed: 22'
+    Dtype: object
+    Nulls: 22 (95.7%)
+    Distinct: 1
+    Values: ['2-Facilitator/Trainer name']
+
+  Column: '3-CHW- Mental Health Module (M3)'
+    Dtype: object
+    Nulls: 22 (95.7%)
+    Distinct: 1
+    Values: ['3-Start date (YYYY/MM/DD)']
+
+  Column: 'Unnamed: 24'
+    Dtype: object
+    Nulls: 22 (95.7%)
+    Distinct: 1
+    Values: ['3-Facilitator/Trainer name']
+
+  Column: '4-CHW- Treatment Adherence Module (M4)'
+    Dtype: object
+    Nulls: 22 (95.7%)
+    Distinct: 1
+    Values: ['4-Start date (YYYY/MM/DD)']
+
+  Column: 'Unnamed: 26'
+    Dtype: object
+    Nulls: 22 (95.7%)
+    Distinct: 1
+    Values: ['4-Facilitator/Trainer name']
+
+  Column: '5-Communicable Diseases Module Part 1: HIV and Other STIs'
+    Dtype: object
+    Nulls: 22 (95.7%)
+    Distinct: 1
+    Values: ['5-Start date (YYYY/MM/DD)']
+
+  Column: 'Unnamed: 28'
+    Dtype: object
+    Nulls: 22 (95.7%)
+    Distinct: 1
+    Values: ['5-Facilitator/Trainer name']
+
+  Column: '6-Communicable Diseases Part 1: HIV testing - Competency Assessment'
+    Dtype: object
+    Nulls: 22 (95.7%)
+    Distinct: 1
+    Values: ['6-Start date (YYYY/MM/DD)']
+
+  Column: 'Unnamed: 30'
+    Dtype: object
+    Nulls: 22 (95.7%)
+    Distinct: 1
+    Values: ['6-Facilitator/Trainer name']
+
+  Column: '7- Communicable Diseases Part 2: TB and Other Respiratory Infections: Theory'
+    Dtype: object
+    Nulls: 22 (95.7%)
+    Distinct: 1
+    Values: ['7-Start date (YYYY/MM/DD)']
+
+  Column: 'Unnamed: 32'
+    Dtype: object
+    Nulls: 22 (95.7%)
+    Distinct: 1
+    Values: ['7-Facilitator/Trainer name']
+
+  Column: '8-Communicable Diseases Part 2: Sputum Collection for TB testing - Competency Assessment'
+    Dtype: object
+    Nulls: 22 (95.7%)
+    Distinct: 1
+    Values: ['8-Start date (YYYY/MM/DD)']
+
+  Column: 'Unnamed: 34'
+    Dtype: object
+    Nulls: 22 (95.7%)
+    Distinct: 1
+    Values: ['8-Facilitator/Trainer name']
+
+  Column: '9-Communicable Diseases Part 3: Diarrhoea and Gut Infections'
+    Dtype: object
+    Nulls: 22 (95.7%)
+    Distinct: 1
+    Values: ['9-Start date (YYYY/MM/DD)']
+
+  Column: 'Unnamed: 36'
+    Dtype: object
+    Nulls: 22 (95.7%)
+    Distinct: 1
+    Values: ['9-Facilitator/Trainer name']
+
+  Column: '10- Communicable Diseases Module Part 4: Skin Infections'
+    Dtype: object
+    Nulls: 22 (95.7%)
+    Distinct: 1
+    Values: ['10-Start date (YYYY/MM/DD)']
+
+  Column: 'Unnamed: 38'
+    Dtype: object
+    Nulls: 22 (95.7%)
+    Distinct: 1
+    Values: ['10-Facilitator/Trainer name']
+
+  Column: '11-Maternal and Child Health Part 1: Caring for the pregnant clients'
+    Dtype: object
+    Nulls: 22 (95.7%)
+    Distinct: 1
+    Values: ['11-Start date (YYYY/MM/DD)']
+
+  Column: 'Unnamed: 40'
+    Dtype: object
+    Nulls: 22 (95.7%)
+    Distinct: 1
+    Values: ['11-Facilitator/Trainer name']
+
+  Column: '12- Maternal and Child Health Part 2: Caring for mothers and babies after birth'
+    Dtype: object
+    Nulls: 22 (95.7%)
+    Distinct: 1
+    Values: ['12-Start date (YYYY/MM/DD)']
+
+  Column: 'Unnamed: 42'
+    Dtype: object
+    Nulls: 22 (95.7%)
+    Distinct: 1
+    Values: ['12-Facilitator/Trainer name']
+
+  Column: '13- Maternal and Child Health Part 3: Feeding support for caregivers and babies after birth'
+    Dtype: object
+    Nulls: 20 (87.0%)
+    Distinct: 2
+    Values: ['13-Start date (YYYY/MM/DD)', datetime.datetime(2025, 10, 20, 0, 0)]
+
+  Column: 'Unnamed: 44'
+    Dtype: object
+    Nulls: 20 (87.0%)
+    Distinct: 2
+    Values: ['13-Facilitator/Trainer name', 'TrainerBddbdebdfd']
+
+  Column: '14- Maternal and Child Health Part 4: Child health and nutrition'
+    Dtype: object
+    Nulls: 2 (8.7%)
+    Distinct: 3
+    Values: ['14-Start date (YYYY/MM/DD)', datetime.datetime(2025, 10, 14, 0, 0), datetime.datetime(2025, 10, 22, 0, 0)]
+
+  Column: 'Unnamed: 46'
+    Dtype: object
+    Nulls: 2 (8.7%)
+    Distinct: 2
+    Values: ['14-Facilitator/Trainer name', 'TrainerBddbdebdfd']
+
+  Column: '15- Maternal and Child Health Part 5: Supporting vulnerable children'
+    Dtype: object
+    Nulls: 22 (95.7%)
+    Distinct: 1
+    Values: ['15-Start date (YYYY/MM/DD)']
+
+  Column: 'Unnamed: 48'
+    Dtype: object
+    Nulls: 22 (95.7%)
+    Distinct: 1
+    Values: ['15-Facilitator/Trainer name']
+
+
+--------------------------------------------------------------------------------
+SHEET: lu_District
+--------------------------------------------------------------------------------
+ROWS: 7
+COLUMNS: 9
+
+  Column: 'District'
+    Dtype: object
+    Nulls: 1 (14.3%)
+    Distinct: 6
+    Values: ['Cape Winelands', 'Central Karoo', 'Garden Route', 'Metro', 'Overberg', 'West Coast']
+
+  Column: 'Unnamed: 1'
+    Dtype: float64
+    Nulls: 7 (100.0%)
+    Distinct: 0
+
+  Column: 'Unnamed: 2'
+    Dtype: float64
+    Nulls: 7 (100.0%)
+    Distinct: 0
+
+  Column: 'Cape Winelands'
+    Dtype: object
+    Nulls: 2 (28.6%)
+    Distinct: 5
+    Values: ['Breede Valley', 'Drakenstein', 'Langeberg', 'Stellenbosch', 'Witzenberg ']
+
+  Column: 'Central Karoo'
+    Dtype: object
+    Nulls: 4 (57.1%)
+    Distinct: 3
+    Values: ['Beaufort West', 'Laingsburg', 'Prince Albert']
+
+  Column: 'Garden Route'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 7
+    Values: ['Bitou', 'George', 'Hessequa', 'Kannaland', 'Knysna', 'Mossel Bay', 'Oudtshoorn']
+
+  Column: 'Metro'
+    Dtype: object
+    Nulls: 3 (42.9%)
+    Distinct: 4
+    Values: ['Khayelitsha/Eastern (KESS)', 'Klipfontein/Mitchells Plain (KMPSS)', 'Northern/Tygerberg (NTSS)', 'Southern/Western (SWSS)']
+
+  Column: 'Overberg'
+    Dtype: object
+    Nulls: 3 (42.9%)
+    Distinct: 4
+    Values: ['Cape Agulhas', 'Overstrand', 'Swellendam', 'Theewaterskloof']
+
+  Column: 'West Coast'
+    Dtype: object
+    Nulls: 2 (28.6%)
+    Distinct: 5
+    Values: ['Bergrivier', 'Cederberg', 'Matzikama', 'Saldanha Bay', 'Swartland']
+
+
+--------------------------------------------------------------------------------
+SHEET: lu_Employer
+--------------------------------------------------------------------------------
+ROWS: 9
+COLUMNS: 3
+
+  Column: 'Employer'
+    Dtype: object
+    Nulls: 7 (77.8%)
+    Distinct: 2
+    Values: ['City of Cape Town', 'Correctional Services (DCS)']
+
+  Column: 'Employer Group'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 9
+    Values: ['CoCT', 'Correctional Services (DCS)', 'DSD', 'HEI', 'NDOH', 'NGO/NPO', 'Other', 'Private', 'WCGHW']
+
+  Column: 'Subgroup'
+    Dtype: float64
+    Nulls: 9 (100.0%)
+    Distinct: 0
+
+
+--------------------------------------------------------------------------------
+SHEET: lu_Facility
+--------------------------------------------------------------------------------
+ROWS: 596
+COLUMNS: 4
+
+  Column: 'FacilityName'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 596
+    Sample (first 15): ['AAN-HET-PAD CLINIC', 'ABBOTSDALE CLINIC', 'ADOLESCENT CENTRE OF EXCELLENCE', 'ADRIAANSE CLINIC', 'ALAN BLYTH HOSPITAL', 'ALBERTINIA CLINIC', 'ALBERTINIA MOBILE 1', 'ALBOW GARDENS CDC', 'ALBOW GARDENS MOBILE 1', 'ALEXANDRA HOSPITAL', 'ALMA CDC', 'ALMA MOBILE 1', 'ALPHEN SATELLITE CLINIC', 'AMALIENSTEIN CLINIC', 'ANOVA HEALTH INSTITUTE (ANOVA)']
+
+  Column: 'DistrictMunicipality'
+    Dtype: object
+    Nulls: 16 (2.7%)
+    Distinct: 6
+    Values: ['Cape Winelands District Municipality', 'Central Karoo District Municipality', 'City of Cape Town Metropolitan Municipality', 'Garden Route District Municipality', 'Overberg District Municipality', 'West Coast District Municipality']
+
+  Column: 'HealthSubdistrict'
+    Dtype: object
+    Nulls: 37 (6.2%)
+    Distinct: 32
+    Values: ['Beaufort West Subdistrict', 'Bergrivier Subdistrict', 'Bitou Subdistrict', 'Breede Valley Subdistrict', 'Cape Agulhas Subdistrict', 'Cederberg Subdistrict', 'Drakenstein Subdistrict', 'Eastern Subdistrict', 'George Subdistrict', 'Hessequa Subdistrict', 'Kannaland Subdistrict', 'Khayelitsha Subdistrict', 'Klipfontein Subdistrict', 'Knysna Subdistrict', 'Laingsburg Subdistrict', 'Langeberg Subdistrict', 'Matzikama Subdistrict', 'Mitchells Plain Subdistrict', 'Mossel Bay Subdistrict', 'Northern Subdistrict', 'Oudtshoorn Subdistrict', 'Overstrand Subdistrict', 'Prince Albert Subdistrict', 'Saldanha Bay Subdistrict', 'Southern Subdistrict', 'Stellenbosch Subdistrict', 'Swartland Subdistrict', 'Swellendam Subdistrict', 'Theewaterskloof Subdistrict', 'Tygerberg Subdistrict', 'Western Subdistrict', 'Witzenberg Subdistrict']
+
+  Column: 'MetroRuralPDC'
+    Dtype: object
+    Nulls: 53 (8.9%)
+    Distinct: 5
+    Values: ['Groote Schuur Hospital', 'Metro', 'Red Cross Hospital', 'Rural', 'Tygerberg Hospital']
+
+
+--------------------------------------------------------------------------------
+SHEET: lu_General
+--------------------------------------------------------------------------------
+ROWS: 6
+COLUMNS: 15
+
+  Column: 'Capturer'
+    Dtype: object
+    Nulls: 1 (16.7%)
+    Distinct: 5
+    Values: ['Bernice', 'Durron', 'Nathan', 'Tercia', 'Theresa']
+
+  Column: 'Unnamed: 1'
+    Dtype: float64
+    Nulls: 6 (100.0%)
+    Distinct: 0
+
+  Column: 'Gender'
+    Dtype: object
+    Nulls: 3 (50.0%)
+    Distinct: 3
+    Values: ['Female', 'Male', 'Non-binary']
+
+  Column: 'Unnamed: 3'
+    Dtype: float64
+    Nulls: 6 (100.0%)
+    Distinct: 0
+
+  Column: 'Coordinator'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 6
+    Values: ['Ceridwyn', 'Francios', 'Maria', 'Mica', 'Natalie', 'Thanya']
+
+  Column: 'Unnamed: 5'
+    Dtype: float64
+    Nulls: 6 (100.0%)
+    Distinct: 0
+
+  Column: 'Booking/enrolment status'
+    Dtype: object
+    Nulls: 2 (33.3%)
+    Distinct: 4
+    Values: ['Cancelled', 'Confirmed', 'No booking', 'Waiting list']
+
+  Column: 'Unnamed: 7'
+    Dtype: float64
+    Nulls: 6 (100.0%)
+    Distinct: 0
+
+  Column: 'Attendance status'
+    Dtype: object
+    Nulls: 1 (16.7%)
+    Distinct: 5
+    Values: ['Attended', 'Cancelled', 'Non-Attendance', 'Partial attendance', 'Replacement']
+
+  Column: 'Unnamed: 9'
+    Dtype: float64
+    Nulls: 6 (100.0%)
+    Distinct: 0
+
+  Column: 'Race'
+    Dtype: object
+    Nulls: 1 (16.7%)
+    Distinct: 5
+    Values: ['African', 'Asian', 'Coloured', 'Indian', 'White']
+
+  Column: 'Unnamed: 11'
+    Dtype: float64
+    Nulls: 6 (100.0%)
+    Distinct: 0
+
+  Column: 'Disability'
+    Dtype: object
+    Nulls: 4 (66.7%)
+    Distinct: 2
+    Values: ['No', 'Yes']
+
+  Column: 'Unnamed: 13'
+    Dtype: float64
+    Nulls: 6 (100.0%)
+    Distinct: 0
+
+  Column: 'Competency Status'
+    Dtype: object
+    Nulls: 4 (66.7%)
+    Distinct: 2
+    Values: ['Competent', 'Not Yet Competent']
+
+
+--------------------------------------------------------------------------------
+SHEET: lu_Profession
+--------------------------------------------------------------------------------
+ROWS: 62
+COLUMNS: 17
+
+  Column: 'ProfessionKey'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 62
+    Sample (first 15): ['P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9', 'P10', 'P11', 'P12', 'P13', 'P14', 'P15']
+
+  Column: 'Professional category'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 4
+    Values: ['Doctor', 'Nurse', 'Other', 'Pharmacist']
+
+  Column: 'Job title'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 62
+    Sample (first 15): ['Registered Counsellor', 'Dietitian', 'General Assistant (GA)', 'Social Worker', 'Social Auxiliary Worker (SAW)', 'Admin Clerk', 'Dentist', 'Dental Assistant', 'Oral Hygienist', 'Radiographer', 'Sonographer', 'Community Health Worker (CHW)', 'Speech Therapist', 'Occupational Therapist', 'CSSD Operator']
+
+  Column: 'KTU Profession'
+    Dtype: float64
+    Nulls: 62 (100.0%)
+    Distinct: 0
+
+  Column: 'Unnamed: 4'
+    Dtype: float64
+    Nulls: 62 (100.0%)
+    Distinct: 0
+
+  Column: 'Unnamed: 5'
+    Dtype: float64
+    Nulls: 62 (100.0%)
+    Distinct: 0
+
+  Column: 'Unnamed: 6'
+    Dtype: float64
+    Nulls: 62 (100.0%)
+    Distinct: 0
+
+  Column: 'Unnamed: 7'
+    Dtype: float64
+    Nulls: 62 (100.0%)
+    Distinct: 0
+
+  Column: 'Unnamed: 8'
+    Dtype: float64
+    Nulls: 62 (100.0%)
+    Distinct: 0
+
+  Column: 'Unnamed: 9'
+    Dtype: float64
+    Nulls: 62 (100.0%)
+    Distinct: 0
+
+  Column: 'Unnamed: 10'
+    Dtype: float64
+    Nulls: 62 (100.0%)
+    Distinct: 0
+
+  Column: 'Unnamed: 11'
+    Dtype: float64
+    Nulls: 62 (100.0%)
+    Distinct: 0
+
+  Column: 'Professional category.1'
+    Dtype: object
+    Nulls: 58 (93.5%)
+    Distinct: 4
+    Values: ['Doctor', 'Nurse', 'Other', 'Pharmacist']
+
+  Column: 'Doctor'
+    Dtype: object
+    Nulls: 53 (85.5%)
+    Distinct: 9
+    Values: ['Community Service Medical Officer/Doctor (COSMO)', 'Family Physician', 'General Physician (GP)', 'Medical Intern', 'Medical Officer (MO)', 'Medical Specialist', 'Medical Student', 'Registrar', 'Specialist Physician']
+
+  Column: 'Nurse'
+    Dtype: object
+    Nulls: 41 (66.1%)
+    Distinct: 21
+    Values: ['Accoucheur - Male Midwife', 'Area Manager', 'Assistant Manager Nursing (AMN)', 'Assistant Nursing Manager', 'Clinic Manager', 'Clinical Nurse Practitioner (CNP)', 'Clinical Programme Coordinator', 'Community Service Nurse (CSPN)', 'Enrolled Nurse (EN)', 'Enrolled Nursing assistant/auxiliary (ENA)', 'Facility Manager', 'General Nurse', 'IPC Nurse', 'Midwife', 'Operational Manager (OM/OPM)', 'Outreach Team Lead (OTL)', 'PNB1 - Nursing Speciality', 'Professional Nurse (PN)', 'Registered Nurse', 'Registered Professional Nurse (RPN)', 'Student nurse']
+
+  Column: 'Pharmacist'
+    Dtype: object
+    Nulls: 58 (93.5%)
+    Distinct: 4
+    Values: ['Pharmaceutical Policy Specialist', 'Pharmacist Assistant', 'Post Basic Pharmacy Assistant', 'Student Pharmacist']
+
+  Column: 'Other'
+    Dtype: object
+    Nulls: 32 (51.6%)
+    Distinct: 30
+    Values: ['Admin Clerk', 'CSSD Operator', 'Case Manager', 'Community Health Worker (CHW)', 'Dental Assistant', 'Dental practitioner (DP)', 'Dentist', 'Dietitian', 'Facility-based Lay-counsellor', 'General Assistant (GA)', 'Health Promoter', 'Home-based Carer', 'Household Aid', 'Housekeeper', 'Occupational Therapist', 'Oral Hygienist', 'Other clinical', 'Other general', 'Physiotherapist', 'Porter', 'Psychologist', 'Quality Assurance Manager', 'Radiographer', 'Registered Counsellor', 'Security Guard', 'Social Auxiliary Worker (SAW)', 'Social Worker', 'Sonographer', 'Speech Therapist', 'Sterilization Operator']
+
+
+================================================================================
+FILE: CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx
+TYPE: Excel
+RELATIVE PATH: Community Health Worker Completions\CHW Training Attendance_KESS_December 2025_SCRUBBED.xlsx
+SIZE: 126.6 KB
+================================================================================
+SHEETS: ['Training Attendance', 'lu_District', 'lu_Employer', 'lu_Facility', 'lu_General', 'lu_Profession']
+
+--------------------------------------------------------------------------------
+SHEET: Training Attendance
+--------------------------------------------------------------------------------
+ROWS: 234
+COLUMNS: 49
+
+  Column: 'Date Submitted: ________________________'
+    Dtype: object
+    Nulls: 233 (99.6%)
+    Distinct: 1
+    Values: ['Participant number']
+
+  Column: 'Unnamed: 1'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 222
+    Sample (first 15): ['Participant Surname', 'LastFcfeaeadfa', 'LastCcedacbcfa', 'LastCaacadaeab', 'LastAdcabababc', 'LastBbdadebadf', 'LastFcaabedbcd', 'LastDebbceaafa', 'LastFcabbfecad', 'LastAefcccdcdd', 'LastFddeaedcfb', 'LastDbdfbbacaa', 'LastDbdbfdebac', 'LastAbabedabff', 'LastDecffabefb']
+
+  Column: 'Unnamed: 2'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 212
+    Sample (first 15): ['Participant First name', 'FirstCddaeccddb', 'FirstDfdbcfabde', 'FirstAecfebecfd', 'FirstBadfcfbbaf', 'FirstDbdbccdcbc', 'FirstFaaebcaecb', 'FirstCbecfefefc', 'FirstFcfbbcffcc', 'FirstDfbbfdddfa', 'FirstFabdbcafaf', 'FirstDcaccbaeed', 'FirstFaecaaaacf', 'FirstFbbfaaacae', 'FirstFcedefdcde']
+
+  Column: 'Unnamed: 3'
+    Dtype: object
+    Nulls: 233 (99.6%)
+    Distinct: 1
+    Values: ['Email Address']
+
+  Column: 'Unnamed: 4'
+    Dtype: object
+    Nulls: 15 (6.4%)
+    Distinct: 3
+    Values: ['Female', 'Gender', 'Male']
+
+  Column: 'Unnamed: 5'
+    Dtype: object
+    Nulls: 41 (17.5%)
+    Distinct: 3
+    Values: ['African', 'Coloured', 'Race']
+
+  Column: 'Unnamed: 6'
+    Dtype: object
+    Nulls: 37 (15.8%)
+    Distinct: 2
+    Values: ['Disability', 'No']
+
+  Column: 'Unnamed: 7'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 2
+    Values: ['Employer Group', 'NGO/NPO']
+
+  Column: 'Unnamed: 8'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 5
+    Values: ['Employer details (e.g.: Right to care, TBHIVCare, ACVV)', "Kheth'Impilo", 'Phambili', 'Philani', 'TB/HIV Care']
+
+  Column: 'Unnamed: 9'
+    Dtype: object
+    Nulls: 38 (16.2%)
+    Distinct: 194
+    Sample (first 15): ['ID number', '1104656542383', '0464584647579', '4381144673213', '2566169351368', '4154136301858', '9182258662135', '4630224621351', '7013320671428', '0655595384161', '3111664464591', '2145550393558', '4171093660424', '3232621631697', '1633313541185']
+
+  Column: 'Unnamed: 10'
+    Dtype: object
+    Nulls: 198 (84.6%)
+    Distinct: 36
+    Values: ['01618442', '09082637', '10020385', '11061272', '14264263', '14637585', '15442429', '18705634', '22302531', '32563634', '34947953', '37359267', '39961805', '41186264', '44145314', '44893762', '47260599', '47371945', '49504749', '51530633', '53814344', '54179285', '61246850', '63304481', '65023243', '67554203', '68862897', '70304831', '70353461', '83915383', '88013943', '88366830', '90544265', '92422876', '98422638', 'Employee number']
+
+  Column: 'Unnamed: 11'
+    Dtype: object
+    Nulls: 4 (1.7%)
+    Distinct: 3
+    Values: ['Community Health Worker (CHW)', 'Facility-based Lay-counsellor', 'Profession']
+
+  Column: 'Unnamed: 12'
+    Dtype: object
+    Nulls: 233 (99.6%)
+    Distinct: 1
+    Values: ['Job Title (if different)']
+
+  Column: 'Unnamed: 13'
+    Dtype: object
+    Nulls: 233 (99.6%)
+    Distinct: 1
+    Values: ['Professional Registration Number (N/A if no registration number)']
+
+  Column: 'Unnamed: 14'
+    Dtype: object
+    Nulls: 4 (1.7%)
+    Distinct: 2
+    Values: ['District', 'Metro']
+
+  Column: 'Unnamed: 15'
+    Dtype: object
+    Nulls: 4 (1.7%)
+    Distinct: 2
+    Values: ['Khayelitsha/Eastern (KESS)', 'Sub-structure/sub-district']
+
+  Column: 'Unnamed: 16'
+    Dtype: object
+    Nulls: 233 (99.6%)
+    Distinct: 1
+    Values: ['Facility']
+
+  Column: 'Unnamed: 17'
+    Dtype: object
+    Nulls: 4 (1.7%)
+    Distinct: 7
+    Values: ['If facility name not on list, please provide details (Facility name/work location)', "Kheth'Impilo Macassar", "Kheth'Impilo Silversands", "Kheth'Impilo Wesbank", 'Phambili', 'Philani Site C', 'TB/HIV Care Site B']
+
+  Column: 'Unnamed: 18'
+    Dtype: object
+    Nulls: 233 (99.6%)
+    Distinct: 1
+    Values: ['NPO Supervisor Email']
+
+  Column: '1-CHW- Introductory Module (M1)'
+    Dtype: object
+    Nulls: 233 (99.6%)
+    Distinct: 1
+    Values: ['1- Start date (YYYY/MM/DD)']
+
+  Column: 'Unnamed: 20'
+    Dtype: object
+    Nulls: 233 (99.6%)
+    Distinct: 1
+    Values: ['1-Facilitator/Trainer name']
+
+  Column: '2-CHW- Healthy Conversations Module (M2)'
+    Dtype: object
+    Nulls: 168 (71.8%)
+    Distinct: 4
+    Values: ['2-Start date (YYYY/MM/DD)', datetime.datetime(2025, 2, 21, 0, 0), datetime.datetime(2025, 2, 25, 0, 0), datetime.datetime(2025, 2, 26, 0, 0)]
+
+  Column: 'Unnamed: 22'
+    Dtype: object
+    Nulls: 168 (71.8%)
+    Distinct: 3
+    Values: ['2-Facilitator/Trainer name', 'TrainerAbeabbccdb', 'TrainerEaacfeaacf']
+
+  Column: '3-CHW- Mental Health Module (M3)'
+    Dtype: object
+    Nulls: 198 (84.6%)
+    Distinct: 5
+    Values: [datetime.datetime(2025, 6, 6, 0, 0), datetime.datetime(2025, 6, 26, 0, 0), datetime.datetime(2025, 7, 22, 0, 0), datetime.datetime(2025, 7, 23, 0, 0), '3-Start date (YYYY/MM/DD)']
+
+  Column: 'Unnamed: 24'
+    Dtype: object
+    Nulls: 198 (84.6%)
+    Distinct: 2
+    Values: ['3-Facilitator/Trainer name', 'TrainerAddffabcfa']
+
+  Column: '4-CHW- Treatment Adherence Module (M4)'
+    Dtype: object
+    Nulls: 168 (71.8%)
+    Distinct: 4
+    Values: [datetime.datetime(2025, 2, 21, 0, 0), datetime.datetime(2025, 2, 25, 0, 0), datetime.datetime(2025, 2, 26, 0, 0), '4-Start date (YYYY/MM/DD)']
+
+  Column: 'Unnamed: 26'
+    Dtype: object
+    Nulls: 168 (71.8%)
+    Distinct: 3
+    Values: ['4-Facilitator/Trainer name', 'TrainerAbeabbccdb', 'TrainerEaacfeaacf']
+
+  Column: '5-Communicable Diseases Module Part 1: HIV and Other STIs'
+    Dtype: object
+    Nulls: 88 (37.6%)
+    Distinct: 8
+    Values: [datetime.datetime(2025, 9, 18, 0, 0), datetime.datetime(2025, 9, 19, 0, 0), datetime.datetime(2025, 10, 16, 0, 0), datetime.datetime(2025, 10, 17, 0, 0), datetime.datetime(2025, 10, 20, 0, 0), datetime.datetime(2025, 10, 30, 0, 0), datetime.datetime(2025, 11, 19, 0, 0), '5-Start date (YYYY/MM/DD)']
+
+  Column: 'Unnamed: 28'
+    Dtype: object
+    Nulls: 89 (38.0%)
+    Distinct: 7
+    Values: ['5-Facilitator/Trainer name', 'TrainerAbeabbccdb', 'TrainerBbcfaecbde', 'TrainerBcccecaace', 'TrainerCfeeafafdd', 'TrainerEaacfeaacf', 'TrainerFdbfedbeab']
+
+  Column: '6-Communicable Diseases Part 1: HIV testing - Competency Assessment'
+    Dtype: object
+    Nulls: 233 (99.6%)
+    Distinct: 1
+    Values: ['6-Start date (YYYY/MM/DD)']
+
+  Column: 'Unnamed: 30'
+    Dtype: object
+    Nulls: 233 (99.6%)
+    Distinct: 1
+    Values: ['6-Facilitator/Trainer name']
+
+  Column: '7- Communicable Diseases Part 2: TB and Other Respiratory Infections: Theory'
+    Dtype: object
+    Nulls: 75 (32.1%)
+    Distinct: 14
+    Values: [datetime.datetime(2025, 5, 14, 0, 0), datetime.datetime(2025, 5, 15, 0, 0), datetime.datetime(2025, 5, 16, 0, 0), datetime.datetime(2025, 6, 2, 0, 0), datetime.datetime(2025, 6, 3, 0, 0), datetime.datetime(2025, 6, 5, 0, 0), datetime.datetime(2025, 6, 6, 0, 0), datetime.datetime(2025, 6, 13, 0, 0), datetime.datetime(2025, 9, 1, 0, 0), datetime.datetime(2025, 9, 5, 0, 0), datetime.datetime(2025, 10, 30, 0, 0), datetime.datetime(2025, 11, 1, 0, 0), datetime.datetime(2025, 11, 19, 0, 0), '7-Start date (YYYY/MM/DD)']
+
+  Column: 'Unnamed: 32'
+    Dtype: object
+    Nulls: 76 (32.5%)
+    Distinct: 6
+    Values: ['7-Facilitator/Trainer name', 'TrainerAbeabbccdb', 'TrainerCcdcabbcbf', 'TrainerCfeeafafdd', 'TrainerEaacfeaacf', 'TrainerFdbfedbeab']
+
+  Column: '8-Communicable Diseases Part 2: Sputum Collection for TB testing - Competency Assessment'
+    Dtype: object
+    Nulls: 233 (99.6%)
+    Distinct: 1
+    Values: ['8-Start date (YYYY/MM/DD)']
+
+  Column: 'Unnamed: 34'
+    Dtype: object
+    Nulls: 233 (99.6%)
+    Distinct: 1
+    Values: ['8-Facilitator/Trainer name']
+
+  Column: '9-Communicable Diseases Part 3: Diarrhoea and Gut Infections'
+    Dtype: object
+    Nulls: 225 (96.2%)
+    Distinct: 2
+    Values: [datetime.datetime(2025, 11, 20, 0, 0), '9-Start date (YYYY/MM/DD)']
+
+  Column: 'Unnamed: 36'
+    Dtype: object
+    Nulls: 225 (96.2%)
+    Distinct: 2
+    Values: ['9-Facilitator/Trainer name', 'TrainerEaacfeaacf']
+
+  Column: '10- Communicable Diseases Module Part 4: Skin Infections'
+    Dtype: object
+    Nulls: 233 (99.6%)
+    Distinct: 1
+    Values: ['10-Start date (YYYY/MM/DD)']
+
+  Column: 'Unnamed: 38'
+    Dtype: object
+    Nulls: 233 (99.6%)
+    Distinct: 1
+    Values: ['10-Facilitator/Trainer name']
+
+  Column: '11-Maternal and Child Health Part 1: Caring for the pregnant clients'
+    Dtype: object
+    Nulls: 233 (99.6%)
+    Distinct: 1
+    Values: ['11-Start date (YYYY/MM/DD)']
+
+  Column: 'Unnamed: 40'
+    Dtype: object
+    Nulls: 233 (99.6%)
+    Distinct: 1
+    Values: ['11-Facilitator/Trainer name']
+
+  Column: '12- Maternal and Child Health Part 2: Caring for mothers and babies after birth'
+    Dtype: object
+    Nulls: 233 (99.6%)
+    Distinct: 1
+    Values: ['12-Start date (YYYY/MM/DD)']
+
+  Column: 'Unnamed: 42'
+    Dtype: object
+    Nulls: 233 (99.6%)
+    Distinct: 1
+    Values: ['12-Facilitator/Trainer name']
+
+  Column: '13- Maternal and Child Health Part 3: Feeding support for caregivers and babies after birth'
+    Dtype: object
+    Nulls: 233 (99.6%)
+    Distinct: 1
+    Values: ['13-Start date (YYYY/MM/DD)']
+
+  Column: 'Unnamed: 44'
+    Dtype: object
+    Nulls: 233 (99.6%)
+    Distinct: 1
+    Values: ['13-Facilitator/Trainer name']
+
+  Column: '14- Maternal and Child Health Part 4: Child health and nutrition'
+    Dtype: object
+    Nulls: 233 (99.6%)
+    Distinct: 1
+    Values: ['14-Start date (YYYY/MM/DD)']
+
+  Column: 'Unnamed: 46'
+    Dtype: object
+    Nulls: 233 (99.6%)
+    Distinct: 1
+    Values: ['14-Facilitator/Trainer name']
+
+  Column: '15- Maternal and Child Health Part 5: Supporting vulnerable children'
+    Dtype: object
+    Nulls: 233 (99.6%)
+    Distinct: 1
+    Values: ['15-Start date (YYYY/MM/DD)']
+
+  Column: 'Unnamed: 48'
+    Dtype: object
+    Nulls: 233 (99.6%)
+    Distinct: 1
+    Values: ['15-Facilitator/Trainer name']
+
+
+--------------------------------------------------------------------------------
+SHEET: lu_District
+--------------------------------------------------------------------------------
+ROWS: 7
+COLUMNS: 9
+
+  Column: 'District'
+    Dtype: object
+    Nulls: 1 (14.3%)
+    Distinct: 6
+    Values: ['Cape Winelands', 'Central Karoo', 'Garden Route', 'Metro', 'Overberg', 'West Coast']
+
+  Column: 'Unnamed: 1'
+    Dtype: float64
+    Nulls: 7 (100.0%)
+    Distinct: 0
+
+  Column: 'Unnamed: 2'
+    Dtype: float64
+    Nulls: 7 (100.0%)
+    Distinct: 0
+
+  Column: 'Cape Winelands'
+    Dtype: object
+    Nulls: 2 (28.6%)
+    Distinct: 5
+    Values: ['Breede Valley', 'Drakenstein', 'Langeberg', 'Stellenbosch', 'Witzenberg ']
+
+  Column: 'Central Karoo'
+    Dtype: object
+    Nulls: 4 (57.1%)
+    Distinct: 3
+    Values: ['Beaufort West', 'Laingsburg', 'Prince Albert']
+
+  Column: 'Garden Route'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 7
+    Values: ['Bitou', 'George', 'Hessequa', 'Kannaland', 'Knysna', 'Mossel Bay', 'Oudtshoorn']
+
+  Column: 'Metro'
+    Dtype: object
+    Nulls: 3 (42.9%)
+    Distinct: 4
+    Values: ['Khayelitsha/Eastern (KESS)', 'Klipfontein/Mitchells Plain (KMPSS)', 'Northern/Tygerberg (NTSS)', 'Southern/Western (SWSS)']
+
+  Column: 'Overberg'
+    Dtype: object
+    Nulls: 3 (42.9%)
+    Distinct: 4
+    Values: ['Cape Agulhas', 'Overstrand', 'Swellendam', 'Theewaterskloof']
+
+  Column: 'West Coast'
+    Dtype: object
+    Nulls: 2 (28.6%)
+    Distinct: 5
+    Values: ['Bergrivier', 'Cederberg', 'Matzikama', 'Saldanha Bay', 'Swartland']
+
+
+--------------------------------------------------------------------------------
+SHEET: lu_Employer
+--------------------------------------------------------------------------------
+ROWS: 9
+COLUMNS: 3
+
+  Column: 'Employer'
+    Dtype: object
+    Nulls: 7 (77.8%)
+    Distinct: 2
+    Values: ['City of Cape Town', 'Correctional Services (DCS)']
+
+  Column: 'Employer Group'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 9
+    Values: ['CoCT', 'Correctional Services (DCS)', 'DSD', 'HEI', 'NDOH', 'NGO/NPO', 'Other', 'Private', 'WCGHW']
+
+  Column: 'Subgroup'
+    Dtype: float64
+    Nulls: 9 (100.0%)
+    Distinct: 0
+
+
+--------------------------------------------------------------------------------
+SHEET: lu_Facility
+--------------------------------------------------------------------------------
+ROWS: 596
+COLUMNS: 4
+
+  Column: 'FacilityName'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 596
+    Sample (first 15): ['AAN-HET-PAD CLINIC', 'ABBOTSDALE CLINIC', 'ADOLESCENT CENTRE OF EXCELLENCE', 'ADRIAANSE CLINIC', 'ALAN BLYTH HOSPITAL', 'ALBERTINIA CLINIC', 'ALBERTINIA MOBILE 1', 'ALBOW GARDENS CDC', 'ALBOW GARDENS MOBILE 1', 'ALEXANDRA HOSPITAL', 'ALMA CDC', 'ALMA MOBILE 1', 'ALPHEN SATELLITE CLINIC', 'AMALIENSTEIN CLINIC', 'ANOVA HEALTH INSTITUTE (ANOVA)']
+
+  Column: 'DistrictMunicipality'
+    Dtype: object
+    Nulls: 16 (2.7%)
+    Distinct: 6
+    Values: ['Cape Winelands District Municipality', 'Central Karoo District Municipality', 'City of Cape Town Metropolitan Municipality', 'Garden Route District Municipality', 'Overberg District Municipality', 'West Coast District Municipality']
+
+  Column: 'HealthSubdistrict'
+    Dtype: object
+    Nulls: 37 (6.2%)
+    Distinct: 32
+    Values: ['Beaufort West Subdistrict', 'Bergrivier Subdistrict', 'Bitou Subdistrict', 'Breede Valley Subdistrict', 'Cape Agulhas Subdistrict', 'Cederberg Subdistrict', 'Drakenstein Subdistrict', 'Eastern Subdistrict', 'George Subdistrict', 'Hessequa Subdistrict', 'Kannaland Subdistrict', 'Khayelitsha Subdistrict', 'Klipfontein Subdistrict', 'Knysna Subdistrict', 'Laingsburg Subdistrict', 'Langeberg Subdistrict', 'Matzikama Subdistrict', 'Mitchells Plain Subdistrict', 'Mossel Bay Subdistrict', 'Northern Subdistrict', 'Oudtshoorn Subdistrict', 'Overstrand Subdistrict', 'Prince Albert Subdistrict', 'Saldanha Bay Subdistrict', 'Southern Subdistrict', 'Stellenbosch Subdistrict', 'Swartland Subdistrict', 'Swellendam Subdistrict', 'Theewaterskloof Subdistrict', 'Tygerberg Subdistrict', 'Western Subdistrict', 'Witzenberg Subdistrict']
+
+  Column: 'MetroRuralPDC'
+    Dtype: object
+    Nulls: 53 (8.9%)
+    Distinct: 5
+    Values: ['Groote Schuur Hospital', 'Metro', 'Red Cross Hospital', 'Rural', 'Tygerberg Hospital']
+
+
+--------------------------------------------------------------------------------
+SHEET: lu_General
+--------------------------------------------------------------------------------
+ROWS: 6
+COLUMNS: 15
+
+  Column: 'Capturer'
+    Dtype: object
+    Nulls: 1 (16.7%)
+    Distinct: 5
+    Values: ['Bernice', 'Durron', 'Nathan', 'Tercia', 'Theresa']
+
+  Column: 'Unnamed: 1'
+    Dtype: float64
+    Nulls: 6 (100.0%)
+    Distinct: 0
+
+  Column: 'Gender'
+    Dtype: object
+    Nulls: 3 (50.0%)
+    Distinct: 3
+    Values: ['Female', 'Male', 'Non-binary']
+
+  Column: 'Unnamed: 3'
+    Dtype: float64
+    Nulls: 6 (100.0%)
+    Distinct: 0
+
+  Column: 'Coordinator'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 6
+    Values: ['Ceridwyn', 'Francios', 'Maria', 'Mica', 'Natalie', 'Thanya']
+
+  Column: 'Unnamed: 5'
+    Dtype: float64
+    Nulls: 6 (100.0%)
+    Distinct: 0
+
+  Column: 'Booking/enrolment status'
+    Dtype: object
+    Nulls: 2 (33.3%)
+    Distinct: 4
+    Values: ['Cancelled', 'Confirmed', 'No booking', 'Waiting list']
+
+  Column: 'Unnamed: 7'
+    Dtype: float64
+    Nulls: 6 (100.0%)
+    Distinct: 0
+
+  Column: 'Attendance status'
+    Dtype: object
+    Nulls: 1 (16.7%)
+    Distinct: 5
+    Values: ['Attended', 'Cancelled', 'Non-Attendance', 'Partial attendance', 'Replacement']
+
+  Column: 'Unnamed: 9'
+    Dtype: float64
+    Nulls: 6 (100.0%)
+    Distinct: 0
+
+  Column: 'Race'
+    Dtype: object
+    Nulls: 1 (16.7%)
+    Distinct: 5
+    Values: ['African', 'Asian', 'Coloured', 'Indian', 'White']
+
+  Column: 'Unnamed: 11'
+    Dtype: float64
+    Nulls: 6 (100.0%)
+    Distinct: 0
+
+  Column: 'Disability'
+    Dtype: object
+    Nulls: 4 (66.7%)
+    Distinct: 2
+    Values: ['No', 'Yes']
+
+  Column: 'Unnamed: 13'
+    Dtype: float64
+    Nulls: 6 (100.0%)
+    Distinct: 0
+
+  Column: 'Competency Status'
+    Dtype: object
+    Nulls: 4 (66.7%)
+    Distinct: 2
+    Values: ['Competent', 'Not Yet Competent']
+
+
+--------------------------------------------------------------------------------
+SHEET: lu_Profession
+--------------------------------------------------------------------------------
+ROWS: 62
+COLUMNS: 17
+
+  Column: 'ProfessionKey'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 62
+    Sample (first 15): ['P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9', 'P10', 'P11', 'P12', 'P13', 'P14', 'P15']
+
+  Column: 'Professional category'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 4
+    Values: ['Doctor', 'Nurse', 'Other', 'Pharmacist']
+
+  Column: 'Job title'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 62
+    Sample (first 15): ['Registered Counsellor', 'Dietitian', 'General Assistant (GA)', 'Social Worker', 'Social Auxiliary Worker (SAW)', 'Admin Clerk', 'Dentist', 'Dental Assistant', 'Oral Hygienist', 'Radiographer', 'Sonographer', 'Community Health Worker (CHW)', 'Speech Therapist', 'Occupational Therapist', 'CSSD Operator']
+
+  Column: 'KTU Profession'
+    Dtype: float64
+    Nulls: 62 (100.0%)
+    Distinct: 0
+
+  Column: 'Unnamed: 4'
+    Dtype: float64
+    Nulls: 62 (100.0%)
+    Distinct: 0
+
+  Column: 'Unnamed: 5'
+    Dtype: float64
+    Nulls: 62 (100.0%)
+    Distinct: 0
+
+  Column: 'Unnamed: 6'
+    Dtype: float64
+    Nulls: 62 (100.0%)
+    Distinct: 0
+
+  Column: 'Unnamed: 7'
+    Dtype: float64
+    Nulls: 62 (100.0%)
+    Distinct: 0
+
+  Column: 'Unnamed: 8'
+    Dtype: float64
+    Nulls: 62 (100.0%)
+    Distinct: 0
+
+  Column: 'Unnamed: 9'
+    Dtype: float64
+    Nulls: 62 (100.0%)
+    Distinct: 0
+
+  Column: 'Unnamed: 10'
+    Dtype: float64
+    Nulls: 62 (100.0%)
+    Distinct: 0
+
+  Column: 'Unnamed: 11'
+    Dtype: float64
+    Nulls: 62 (100.0%)
+    Distinct: 0
+
+  Column: 'Professional category.1'
+    Dtype: object
+    Nulls: 58 (93.5%)
+    Distinct: 4
+    Values: ['Doctor', 'Nurse', 'Other', 'Pharmacist']
+
+  Column: 'Doctor'
+    Dtype: object
+    Nulls: 53 (85.5%)
+    Distinct: 9
+    Values: ['Community Service Medical Officer/Doctor (COSMO)', 'Family Physician', 'General Physician (GP)', 'Medical Intern', 'Medical Officer (MO)', 'Medical Specialist', 'Medical Student', 'Registrar', 'Specialist Physician']
+
+  Column: 'Nurse'
+    Dtype: object
+    Nulls: 41 (66.1%)
+    Distinct: 21
+    Values: ['Accoucheur - Male Midwife', 'Area Manager', 'Assistant Manager Nursing (AMN)', 'Assistant Nursing Manager', 'Clinic Manager', 'Clinical Nurse Practitioner (CNP)', 'Clinical Programme Coordinator', 'Community Service Nurse (CSPN)', 'Enrolled Nurse (EN)', 'Enrolled Nursing assistant/auxiliary (ENA)', 'Facility Manager', 'General Nurse', 'IPC Nurse', 'Midwife', 'Operational Manager (OM/OPM)', 'Outreach Team Lead (OTL)', 'PNB1 - Nursing Speciality', 'Professional Nurse (PN)', 'Registered Nurse', 'Registered Professional Nurse (RPN)', 'Student nurse']
+
+  Column: 'Pharmacist'
+    Dtype: object
+    Nulls: 58 (93.5%)
+    Distinct: 4
+    Values: ['Pharmaceutical Policy Specialist', 'Pharmacist Assistant', 'Post Basic Pharmacy Assistant', 'Student Pharmacist']
+
+  Column: 'Other'
+    Dtype: object
+    Nulls: 32 (51.6%)
+    Distinct: 30
+    Values: ['Admin Clerk', 'CSSD Operator', 'Case Manager', 'Community Health Worker (CHW)', 'Dental Assistant', 'Dental practitioner (DP)', 'Dentist', 'Dietitian', 'Facility-based Lay-counsellor', 'General Assistant (GA)', 'Health Promoter', 'Home-based Carer', 'Household Aid', 'Housekeeper', 'Occupational Therapist', 'Oral Hygienist', 'Other clinical', 'Other general', 'Physiotherapist', 'Porter', 'Psychologist', 'Quality Assurance Manager', 'Radiographer', 'Registered Counsellor', 'Security Guard', 'Social Auxiliary Worker (SAW)', 'Social Worker', 'Sonographer', 'Speech Therapist', 'Sterilization Operator']
+
+
+================================================================================
+FILE: WITZENBERG - July-Dec 2025_SCRUBBED.xlsx
+TYPE: Excel
+RELATIVE PATH: Community Health Worker Completions\WITZENBERG - July-Dec 2025_SCRUBBED.xlsx
+SIZE: 106.6 KB
+================================================================================
+SHEETS: ['Training Attendance', 'lu_District', 'lu_Employer', 'lu_Facility', 'lu_General', 'lu_Profession']
+
+--------------------------------------------------------------------------------
+SHEET: Training Attendance
+--------------------------------------------------------------------------------
+ROWS: 105
+COLUMNS: 49
+
+  Column: 'Date Submitted: ________________________'
+    Dtype: object
+    Nulls: 104 (99.0%)
+    Distinct: 1
+    Values: ['Participant number']
+
+  Column: 'Unnamed: 1'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 96
+    Sample (first 15): ['Participant Surname', 'LastDbfaaeaebb', 'LastEfecdaccdf', 'LastAfdeacedfb', 'LastDdafcaadcb', 'LastAeadcaabdd', 'LastFfcffafbca', 'LastAeffbaedac', 'LastEfbdaeacbb', 'LastEcaeceadec', 'LastAedfffddcd', 'LastBffcdcdebe', 'LastAdfdbabfbe', 'LastEffcfbadbc', 'LastBeeddedcdf']
+
+  Column: 'Unnamed: 2'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 96
+    Sample (first 15): ['Participant First name', 'FirstAfefdecdae', 'FirstEdbdfaedbe', 'FirstFdeecebaac', 'FirstEcfedfeeec', 'FirstEeffefdfcd', 'FirstBbfddbafaf', 'FirstCbeafcbeab', 'FirstCefcedbced', 'FirstEaafbabdbb', 'FirstCbebbcdbac', 'FirstBdacdadebf', 'FirstEfbccdeccd', 'FirstBebdecccbe', 'FirstDcaebbfdbd']
+
+  Column: 'Unnamed: 3'
+    Dtype: object
+    Nulls: 103 (98.1%)
+    Distinct: 2
+    Values: ['Email Address', 'b1986933dc2e@example.org']
+
+  Column: 'Unnamed: 4'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 3
+    Values: ['Female', 'Gender', 'Male']
+
+  Column: 'Unnamed: 5'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 3
+    Values: ['African', 'Coloured', 'Race']
+
+  Column: 'Unnamed: 6'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 2
+    Values: ['Disability', 'No']
+
+  Column: 'Unnamed: 7'
+    Dtype: object
+    Nulls: 30 (28.6%)
+    Distinct: 2
+    Values: ['Employer Group', 'NGO/NPO']
+
+  Column: 'Unnamed: 8'
+    Dtype: object
+    Nulls: 104 (99.0%)
+    Distinct: 1
+    Values: ['Employer details (e.g.: Right to care, TBHIVCare, ACVV)']
+
+  Column: 'Unnamed: 9'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 101
+    Sample (first 15): ['ID number', '1135852604441', '4214813311737', '5871779824511', '9494682103056', '4517519644315', '2428707187686', '6412403422144', '6582408371686', '4246161217861', '0541013762462', '9643816865965', '8924113525597', '5262274255207', '8436831876175']
+
+  Column: 'Unnamed: 10'
+    Dtype: object
+    Nulls: 104 (99.0%)
+    Distinct: 1
+    Values: ['Employee number']
+
+  Column: 'Unnamed: 11'
+    Dtype: object
+    Nulls: 5 (4.8%)
+    Distinct: 2
+    Values: ['Community Health Worker (CHW)', 'Profession']
+
+  Column: 'Unnamed: 12'
+    Dtype: object
+    Nulls: 104 (99.0%)
+    Distinct: 1
+    Values: ['Job Title (if different)']
+
+  Column: 'Unnamed: 13'
+    Dtype: object
+    Nulls: 104 (99.0%)
+    Distinct: 1
+    Values: ['Professional Registration Number (N/A if no registration number)']
+
+  Column: 'Unnamed: 14'
+    Dtype: object
+    Nulls: 1 (1.0%)
+    Distinct: 2
+    Values: ['Cape Winelands', 'District']
+
+  Column: 'Unnamed: 15'
+    Dtype: object
+    Nulls: 1 (1.0%)
+    Distinct: 2
+    Values: ['Sub-structure/sub-district', 'Witzenberg']
+
+  Column: 'Unnamed: 16'
+    Dtype: object
+    Nulls: 57 (54.3%)
+    Distinct: 8
+    Values: ['BELLA VISTA CLINIC', 'CERES CLINIC', 'Facility', 'NDULI CLINIC', 'OP DIE BERG CLINIC', 'PRINCE ALFRED HAMLET CLINIC', 'TULBAGH CLINIC', 'WOLSELEY CLINIC']
+
+  Column: 'Unnamed: 17'
+    Dtype: object
+    Nulls: 78 (74.3%)
+    Distinct: 8
+    Values: ['BELLA VISTA CLINIC', 'CERES CLINIC', 'If facility name not on list, please provide details (Facility name/work location)', 'NDULI CLINIC', 'OP DIE BERG CLINIC', 'PRINS ALFRED HAMLET', 'TULBAGH  CLINIC', 'WOLSELY CLINIC']
+
+  Column: 'Unnamed: 18'
+    Dtype: object
+    Nulls: 30 (28.6%)
+    Distinct: 2
+    Values: ['NPO Supervisor Email', 'PROJECTS@NORSA.ORG']
+
+  Column: '1-CHW- Introductory Module (M1)'
+    Dtype: object
+    Nulls: 25 (23.8%)
+    Distinct: 4
+    Values: ['1- Start date (YYYY/MM/DD)', datetime.datetime(2025, 7, 31, 0, 0), datetime.datetime(2025, 8, 26, 0, 0), datetime.datetime(2025, 8, 29, 0, 0)]
+
+  Column: 'Unnamed: 20'
+    Dtype: object
+    Nulls: 54 (51.4%)
+    Distinct: 4
+    Values: ['1-Facilitator/Trainer name', 'TrainerBeefcbbdfb', 'TrainerBfecaceecf', 'TrainerEdbbcdddef']
+
+  Column: '2-CHW- Healthy Conversations Module (M2)'
+    Dtype: object
+    Nulls: 68 (64.8%)
+    Distinct: 3
+    Values: ['2-Start date (YYYY/MM/DD)', datetime.datetime(2025, 8, 26, 0, 0), datetime.datetime(2025, 8, 29, 0, 0)]
+
+  Column: 'Unnamed: 22'
+    Dtype: object
+    Nulls: 68 (64.8%)
+    Distinct: 3
+    Values: ['2-Facilitator/Trainer name', 'TrainerBeefcbbdfb', 'TrainerEdbbcdddef']
+
+  Column: '3-CHW- Mental Health Module (M3)'
+    Dtype: object
+    Nulls: 68 (64.8%)
+    Distinct: 3
+    Values: [datetime.datetime(2025, 8, 26, 0, 0), datetime.datetime(2025, 8, 29, 0, 0), '3-Start date (YYYY/MM/DD)']
+
+  Column: 'Unnamed: 24'
+    Dtype: object
+    Nulls: 68 (64.8%)
+    Distinct: 3
+    Values: ['3-Facilitator/Trainer name', 'TrainerBeefcbbdfb', 'TrainerEdbbcdddef']
+
+  Column: '4-CHW- Treatment Adherence Module (M4)'
+    Dtype: object
+    Nulls: 68 (64.8%)
+    Distinct: 4
+    Values: [datetime.datetime(2025, 8, 2, 0, 0), datetime.datetime(2025, 8, 26, 0, 0), datetime.datetime(2025, 8, 29, 0, 0), '4-Start date (YYYY/MM/DD)']
+
+  Column: 'Unnamed: 26'
+    Dtype: object
+    Nulls: 68 (64.8%)
+    Distinct: 3
+    Values: ['4-Facilitator/Trainer name', 'TrainerBeefcbbdfb', 'TrainerEdbbcdddef']
+
+  Column: '5-Communicable Diseases Module Part 1: HIV and Other STIs'
+    Dtype: object
+    Nulls: 68 (64.8%)
+    Distinct: 3
+    Values: [datetime.datetime(2025, 8, 26, 0, 0), datetime.datetime(2025, 8, 29, 0, 0), '5-Start date (YYYY/MM/DD)']
+
+  Column: 'Unnamed: 28'
+    Dtype: object
+    Nulls: 68 (64.8%)
+    Distinct: 3
+    Values: ['5-Facilitator/Trainer name', 'TrainerBeefcbbdfb', 'TrainerEdbbcdddef']
+
+  Column: '6-Communicable Diseases Part 1: HIV testing - Competency Assessment'
+    Dtype: object
+    Nulls: 68 (64.8%)
+    Distinct: 3
+    Values: [datetime.datetime(2025, 8, 26, 0, 0), datetime.datetime(2025, 8, 29, 0, 0), '6-Start date (YYYY/MM/DD)']
+
+  Column: 'Unnamed: 30'
+    Dtype: object
+    Nulls: 68 (64.8%)
+    Distinct: 3
+    Values: ['6-Facilitator/Trainer name', 'TrainerBeefcbbdfb', 'TrainerEdbbcdddef']
+
+  Column: '7- Communicable Diseases Part 2: TB and Other Respiratory Infections: Theory'
+    Dtype: object
+    Nulls: 68 (64.8%)
+    Distinct: 3
+    Values: [datetime.datetime(2025, 8, 26, 0, 0), datetime.datetime(2025, 8, 29, 0, 0), '7-Start date (YYYY/MM/DD)']
+
+  Column: 'Unnamed: 32'
+    Dtype: object
+    Nulls: 68 (64.8%)
+    Distinct: 3
+    Values: ['7-Facilitator/Trainer name', 'TrainerBeefcbbdfb', 'TrainerEdbbcdddef']
+
+  Column: '8-Communicable Diseases Part 2: Sputum Collection for TB testing - Competency Assessment'
+    Dtype: object
+    Nulls: 68 (64.8%)
+    Distinct: 3
+    Values: [datetime.datetime(2025, 8, 26, 0, 0), datetime.datetime(2025, 8, 29, 0, 0), '8-Start date (YYYY/MM/DD)']
+
+  Column: 'Unnamed: 34'
+    Dtype: object
+    Nulls: 68 (64.8%)
+    Distinct: 4
+    Values: ['8-Facilitator/Trainer name', 'TrainerBeefcbbdfb', 'TrainerEdbbcdddef', 'TrainerFfbbebbccc']
+
+  Column: '9-Communicable Diseases Part 3: Diarrhoea and Gut Infections'
+    Dtype: object
+    Nulls: 68 (64.8%)
+    Distinct: 3
+    Values: [datetime.datetime(2025, 8, 26, 0, 0), datetime.datetime(2025, 8, 29, 0, 0), '9-Start date (YYYY/MM/DD)']
+
+  Column: 'Unnamed: 36'
+    Dtype: object
+    Nulls: 68 (64.8%)
+    Distinct: 3
+    Values: ['9-Facilitator/Trainer name', 'TrainerBeefcbbdfb', 'TrainerEdbbcdddef']
+
+  Column: '10- Communicable Diseases Module Part 4: Skin Infections'
+    Dtype: object
+    Nulls: 67 (63.8%)
+    Distinct: 4
+    Values: ['10-Start date (YYYY/MM/DD)', datetime.datetime(2025, 7, 16, 0, 0), datetime.datetime(2025, 8, 26, 0, 0), datetime.datetime(2025, 8, 29, 0, 0)]
+
+  Column: 'Unnamed: 38'
+    Dtype: object
+    Nulls: 68 (64.8%)
+    Distinct: 3
+    Values: ['10-Facilitator/Trainer name', 'TrainerBeefcbbdfb', 'TrainerEdbbcdddef']
+
+  Column: '11-Maternal and Child Health Part 1: Caring for the pregnant clients'
+    Dtype: object
+    Nulls: 55 (52.4%)
+    Distinct: 2
+    Values: ['11-Start date (YYYY/MM/DD)', datetime.datetime(2025, 9, 30, 0, 0)]
+
+  Column: 'Unnamed: 40'
+    Dtype: object
+    Nulls: 55 (52.4%)
+    Distinct: 3
+    Values: ['11-Facilitator/Trainer name', 'TrainerBeefcbbdfb', 'TrainerEdbbcdddef']
+
+  Column: '12- Maternal and Child Health Part 2: Caring for mothers and babies after birth'
+    Dtype: object
+    Nulls: 56 (53.3%)
+    Distinct: 2
+    Values: ['12-Start date (YYYY/MM/DD)', datetime.datetime(2025, 10, 17, 0, 0)]
+
+  Column: 'Unnamed: 42'
+    Dtype: object
+    Nulls: 56 (53.3%)
+    Distinct: 3
+    Values: ['12-Facilitator/Trainer name', 'TrainerBeefcbbdfb', 'TrainerEdbbcdddef']
+
+  Column: '13- Maternal and Child Health Part 3: Feeding support for caregivers and babies after birth'
+    Dtype: object
+    Nulls: 48 (45.7%)
+    Distinct: 2
+    Values: ['13-Start date (YYYY/MM/DD)', datetime.datetime(2025, 11, 25, 0, 0)]
+
+  Column: 'Unnamed: 44'
+    Dtype: object
+    Nulls: 48 (45.7%)
+    Distinct: 4
+    Values: ['13-Facilitator/Trainer name', 'TrainerBeefcbbdfb', 'TrainerBfecaceecf', 'TrainerEdbbcdddef']
+
+  Column: '14- Maternal and Child Health Part 4: Child health and nutrition'
+    Dtype: object
+    Nulls: 47 (44.8%)
+    Distinct: 5
+    Values: ['14-Start date (YYYY/MM/DD)', datetime.datetime(2025, 2, 8, 0, 0), datetime.datetime(2025, 11, 25, 0, 0), datetime.datetime(2025, 12, 8, 0, 0), datetime.datetime(2025, 12, 12, 0, 0)]
+
+  Column: 'Unnamed: 46'
+    Dtype: object
+    Nulls: 47 (44.8%)
+    Distinct: 3
+    Values: ['14-Facilitator/Trainer name', 'TrainerBeefcbbdfb', 'TrainerEdbbcdddef']
+
+  Column: '15- Maternal and Child Health Part 5: Supporting vulnerable children'
+    Dtype: object
+    Nulls: 104 (99.0%)
+    Distinct: 1
+    Values: ['15-Start date (YYYY/MM/DD)']
+
+  Column: 'Unnamed: 48'
+    Dtype: object
+    Nulls: 104 (99.0%)
+    Distinct: 1
+    Values: ['15-Facilitator/Trainer name']
+
+
+--------------------------------------------------------------------------------
+SHEET: lu_District
+--------------------------------------------------------------------------------
+ROWS: 7
+COLUMNS: 9
+
+  Column: 'District'
+    Dtype: object
+    Nulls: 1 (14.3%)
+    Distinct: 6
+    Values: ['Cape Winelands', 'Central Karoo', 'Garden Route', 'Metro', 'Overberg', 'West Coast']
+
+  Column: 'Unnamed: 1'
+    Dtype: float64
+    Nulls: 7 (100.0%)
+    Distinct: 0
+
+  Column: 'Unnamed: 2'
+    Dtype: float64
+    Nulls: 7 (100.0%)
+    Distinct: 0
+
+  Column: 'Cape Winelands'
+    Dtype: object
+    Nulls: 2 (28.6%)
+    Distinct: 5
+    Values: ['Breede Valley', 'Drakenstein', 'Langeberg', 'Stellenbosch', 'Witzenberg ']
+
+  Column: 'Central Karoo'
+    Dtype: object
+    Nulls: 4 (57.1%)
+    Distinct: 3
+    Values: ['Beaufort West', 'Laingsburg', 'Prince Albert']
+
+  Column: 'Garden Route'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 7
+    Values: ['Bitou', 'George', 'Hessequa', 'Kannaland', 'Knysna', 'Mossel Bay', 'Oudtshoorn']
+
+  Column: 'Metro'
+    Dtype: object
+    Nulls: 3 (42.9%)
+    Distinct: 4
+    Values: ['Khayelitsha/Eastern (KESS)', 'Klipfontein/Mitchells Plain (KMPSS)', 'Northern/Tygerberg (NTSS)', 'Southern/Western (SWSS)']
+
+  Column: 'Overberg'
+    Dtype: object
+    Nulls: 3 (42.9%)
+    Distinct: 4
+    Values: ['Cape Agulhas', 'Overstrand', 'Swellendam', 'Theewaterskloof']
+
+  Column: 'West Coast'
+    Dtype: object
+    Nulls: 2 (28.6%)
+    Distinct: 5
+    Values: ['Bergrivier', 'Cederberg', 'Matzikama', 'Saldanha Bay', 'Swartland']
+
+
+--------------------------------------------------------------------------------
+SHEET: lu_Employer
+--------------------------------------------------------------------------------
+ROWS: 9
+COLUMNS: 3
+
+  Column: 'Employer'
+    Dtype: object
+    Nulls: 7 (77.8%)
+    Distinct: 2
+    Values: ['City of Cape Town', 'Correctional Services (DCS)']
+
+  Column: 'Employer Group'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 9
+    Values: ['CoCT', 'Correctional Services (DCS)', 'DSD', 'HEI', 'NDOH', 'NGO/NPO', 'Other', 'Private', 'WCGHW']
+
+  Column: 'Subgroup'
+    Dtype: float64
+    Nulls: 9 (100.0%)
+    Distinct: 0
+
+
+--------------------------------------------------------------------------------
+SHEET: lu_Facility
+--------------------------------------------------------------------------------
+ROWS: 596
+COLUMNS: 4
+
+  Column: 'FacilityName'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 596
+    Sample (first 15): ['AAN-HET-PAD CLINIC', 'ABBOTSDALE CLINIC', 'ADOLESCENT CENTRE OF EXCELLENCE', 'ADRIAANSE CLINIC', 'ALAN BLYTH HOSPITAL', 'ALBERTINIA CLINIC', 'ALBERTINIA MOBILE 1', 'ALBOW GARDENS CDC', 'ALBOW GARDENS MOBILE 1', 'ALEXANDRA HOSPITAL', 'ALMA CDC', 'ALMA MOBILE 1', 'ALPHEN SATELLITE CLINIC', 'AMALIENSTEIN CLINIC', 'ANOVA HEALTH INSTITUTE (ANOVA)']
+
+  Column: 'DistrictMunicipality'
+    Dtype: object
+    Nulls: 16 (2.7%)
+    Distinct: 6
+    Values: ['Cape Winelands District Municipality', 'Central Karoo District Municipality', 'City of Cape Town Metropolitan Municipality', 'Garden Route District Municipality', 'Overberg District Municipality', 'West Coast District Municipality']
+
+  Column: 'HealthSubdistrict'
+    Dtype: object
+    Nulls: 37 (6.2%)
+    Distinct: 32
+    Values: ['Beaufort West Subdistrict', 'Bergrivier Subdistrict', 'Bitou Subdistrict', 'Breede Valley Subdistrict', 'Cape Agulhas Subdistrict', 'Cederberg Subdistrict', 'Drakenstein Subdistrict', 'Eastern Subdistrict', 'George Subdistrict', 'Hessequa Subdistrict', 'Kannaland Subdistrict', 'Khayelitsha Subdistrict', 'Klipfontein Subdistrict', 'Knysna Subdistrict', 'Laingsburg Subdistrict', 'Langeberg Subdistrict', 'Matzikama Subdistrict', 'Mitchells Plain Subdistrict', 'Mossel Bay Subdistrict', 'Northern Subdistrict', 'Oudtshoorn Subdistrict', 'Overstrand Subdistrict', 'Prince Albert Subdistrict', 'Saldanha Bay Subdistrict', 'Southern Subdistrict', 'Stellenbosch Subdistrict', 'Swartland Subdistrict', 'Swellendam Subdistrict', 'Theewaterskloof Subdistrict', 'Tygerberg Subdistrict', 'Western Subdistrict', 'Witzenberg Subdistrict']
+
+  Column: 'MetroRuralPDC'
+    Dtype: object
+    Nulls: 53 (8.9%)
+    Distinct: 5
+    Values: ['Groote Schuur Hospital', 'Metro', 'Red Cross Hospital', 'Rural', 'Tygerberg Hospital']
+
+
+--------------------------------------------------------------------------------
+SHEET: lu_General
+--------------------------------------------------------------------------------
+ROWS: 6
+COLUMNS: 15
+
+  Column: 'Capturer'
+    Dtype: object
+    Nulls: 1 (16.7%)
+    Distinct: 5
+    Values: ['Bernice', 'Durron', 'Nathan', 'Tercia', 'Theresa']
+
+  Column: 'Unnamed: 1'
+    Dtype: float64
+    Nulls: 6 (100.0%)
+    Distinct: 0
+
+  Column: 'Gender'
+    Dtype: object
+    Nulls: 3 (50.0%)
+    Distinct: 3
+    Values: ['Female', 'Male', 'Non-binary']
+
+  Column: 'Unnamed: 3'
+    Dtype: float64
+    Nulls: 6 (100.0%)
+    Distinct: 0
+
+  Column: 'Coordinator'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 6
+    Values: ['Ceridwyn', 'Francios', 'Maria', 'Mica', 'Natalie', 'Thanya']
+
+  Column: 'Unnamed: 5'
+    Dtype: float64
+    Nulls: 6 (100.0%)
+    Distinct: 0
+
+  Column: 'Booking/enrolment status'
+    Dtype: object
+    Nulls: 2 (33.3%)
+    Distinct: 4
+    Values: ['Cancelled', 'Confirmed', 'No booking', 'Waiting list']
+
+  Column: 'Unnamed: 7'
+    Dtype: float64
+    Nulls: 6 (100.0%)
+    Distinct: 0
+
+  Column: 'Attendance status'
+    Dtype: object
+    Nulls: 1 (16.7%)
+    Distinct: 5
+    Values: ['Attended', 'Cancelled', 'Non-Attendance', 'Partial attendance', 'Replacement']
+
+  Column: 'Unnamed: 9'
+    Dtype: float64
+    Nulls: 6 (100.0%)
+    Distinct: 0
+
+  Column: 'Race'
+    Dtype: object
+    Nulls: 1 (16.7%)
+    Distinct: 5
+    Values: ['African', 'Asian', 'Coloured', 'Indian', 'White']
+
+  Column: 'Unnamed: 11'
+    Dtype: float64
+    Nulls: 6 (100.0%)
+    Distinct: 0
+
+  Column: 'Disability'
+    Dtype: object
+    Nulls: 4 (66.7%)
+    Distinct: 2
+    Values: ['No', 'Yes']
+
+  Column: 'Unnamed: 13'
+    Dtype: float64
+    Nulls: 6 (100.0%)
+    Distinct: 0
+
+  Column: 'Competency Status'
+    Dtype: object
+    Nulls: 4 (66.7%)
+    Distinct: 2
+    Values: ['Competent', 'Not Yet Competent']
+
+
+--------------------------------------------------------------------------------
+SHEET: lu_Profession
+--------------------------------------------------------------------------------
+ROWS: 62
+COLUMNS: 17
+
+  Column: 'ProfessionKey'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 62
+    Sample (first 15): ['P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9', 'P10', 'P11', 'P12', 'P13', 'P14', 'P15']
+
+  Column: 'Professional category'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 4
+    Values: ['Doctor', 'Nurse', 'Other', 'Pharmacist']
+
+  Column: 'Job title'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 62
+    Sample (first 15): ['Registered Counsellor', 'Dietitian', 'General Assistant (GA)', 'Social Worker', 'Social Auxiliary Worker (SAW)', 'Admin Clerk', 'Dentist', 'Dental Assistant', 'Oral Hygienist', 'Radiographer', 'Sonographer', 'Community Health Worker (CHW)', 'Speech Therapist', 'Occupational Therapist', 'CSSD Operator']
+
+  Column: 'KTU Profession'
+    Dtype: float64
+    Nulls: 62 (100.0%)
+    Distinct: 0
+
+  Column: 'Unnamed: 4'
+    Dtype: float64
+    Nulls: 62 (100.0%)
+    Distinct: 0
+
+  Column: 'Unnamed: 5'
+    Dtype: float64
+    Nulls: 62 (100.0%)
+    Distinct: 0
+
+  Column: 'Unnamed: 6'
+    Dtype: float64
+    Nulls: 62 (100.0%)
+    Distinct: 0
+
+  Column: 'Unnamed: 7'
+    Dtype: float64
+    Nulls: 62 (100.0%)
+    Distinct: 0
+
+  Column: 'Unnamed: 8'
+    Dtype: float64
+    Nulls: 62 (100.0%)
+    Distinct: 0
+
+  Column: 'Unnamed: 9'
+    Dtype: float64
+    Nulls: 62 (100.0%)
+    Distinct: 0
+
+  Column: 'Unnamed: 10'
+    Dtype: float64
+    Nulls: 62 (100.0%)
+    Distinct: 0
+
+  Column: 'Unnamed: 11'
+    Dtype: float64
+    Nulls: 62 (100.0%)
+    Distinct: 0
+
+  Column: 'Professional category.1'
+    Dtype: object
+    Nulls: 58 (93.5%)
+    Distinct: 4
+    Values: ['Doctor', 'Nurse', 'Other', 'Pharmacist']
+
+  Column: 'Doctor'
+    Dtype: object
+    Nulls: 53 (85.5%)
+    Distinct: 9
+    Values: ['Community Service Medical Officer/Doctor (COSMO)', 'Family Physician', 'General Physician (GP)', 'Medical Intern', 'Medical Officer (MO)', 'Medical Specialist', 'Medical Student', 'Registrar', 'Specialist Physician']
+
+  Column: 'Nurse'
+    Dtype: object
+    Nulls: 41 (66.1%)
+    Distinct: 21
+    Values: ['Accoucheur - Male Midwife', 'Area Manager', 'Assistant Manager Nursing (AMN)', 'Assistant Nursing Manager', 'Clinic Manager', 'Clinical Nurse Practitioner (CNP)', 'Clinical Programme Coordinator', 'Community Service Nurse (CSPN)', 'Enrolled Nurse (EN)', 'Enrolled Nursing assistant/auxiliary (ENA)', 'Facility Manager', 'General Nurse', 'IPC Nurse', 'Midwife', 'Operational Manager (OM/OPM)', 'Outreach Team Lead (OTL)', 'PNB1 - Nursing Speciality', 'Professional Nurse (PN)', 'Registered Nurse', 'Registered Professional Nurse (RPN)', 'Student nurse']
+
+  Column: 'Pharmacist'
+    Dtype: object
+    Nulls: 58 (93.5%)
+    Distinct: 4
+    Values: ['Pharmaceutical Policy Specialist', 'Pharmacist Assistant', 'Post Basic Pharmacy Assistant', 'Student Pharmacist']
+
+  Column: 'Other'
+    Dtype: object
+    Nulls: 32 (51.6%)
+    Distinct: 30
+    Values: ['Admin Clerk', 'CSSD Operator', 'Case Manager', 'Community Health Worker (CHW)', 'Dental Assistant', 'Dental practitioner (DP)', 'Dentist', 'Dietitian', 'Facility-based Lay-counsellor', 'General Assistant (GA)', 'Health Promoter', 'Home-based Carer', 'Household Aid', 'Housekeeper', 'Occupational Therapist', 'Oral Hygienist', 'Other clinical', 'Other general', 'Physiotherapist', 'Porter', 'Psychologist', 'Quality Assurance Manager', 'Radiographer', 'Registered Counsellor', 'Security Guard', 'Social Auxiliary Worker (SAW)', 'Social Worker', 'Sonographer', 'Speech Therapist', 'Sterilization Operator']
+
+
+================================================================================
+FILE: Course and Facility Look Ups.xlsx
+TYPE: Excel
+RELATIVE PATH: Course and Facility Look Ups.xlsx
+SIZE: 115.7 KB
+================================================================================
+SHEETS: ['LU_Courses', 'LU_Facility']
+
+--------------------------------------------------------------------------------
+SHEET: LU_Courses
+--------------------------------------------------------------------------------
+ROWS: 340
+COLUMNS: 7
+
+  Column: 'CourseGroup'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 12
+    Values: ['CHW', 'Child and Adolescent', 'Emergency Care', 'HAST', 'Hospital and Speciality', "Men's Health", 'Outbreaks', 'Primary Care', 'Rehab and Therapeutics', 'Support Services', 'Unknown', "Women's Health"]
+
+  Column: 'CourseName'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 339
+    Sample (first 15): ['Adolescent Youth Friendly Services Implementers Training', 'Adolescent Youth Friendly Service Sensitisation for Managers and Coordinators', 'Adolescent Youth Friendly Services', 'Advanced Cardiovascular Life Support (ACLS) Course', 'Adverse Events', 'Allergy Best Practice: Basic workshop (Workshop1)', 'BACILLUS CALMETTE- GUERIN (BCG) REFRESHER WEBINAR', 'Back to Basics: Enrolled Nurses', 'Back to Basics: Enrolled Nurse Auxiliaries', 'Back to Basics: Registered Professional Nurses', 'Basic Antenatal Care Plus (BANC+)', 'BANC 2022: Online Component', 'BANC Plus and Sexual Reproductive Health (SRH) IMPLIMENTATION WORKSHOP', 'BANC Plus: Theory Course', 'Basic Antenatal Care Training']
+
+  Column: 'CourseCode'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 297
+    Sample (first 15): ['C001', 'C002', 'C003', 'C005', 'C006', 'C007', 'C008', 'C009', 'C010', 'C011', 'C012', 'C013', 'C014', 'C015', 'C016']
+
+  Column: 'CourseStartDate'
+    Dtype: datetime64[ns]
+    Nulls: 0 (0.0%)
+    Distinct: 1
+    Values: [Timestamp('1999-01-01 00:00:00')]
+
+  Column: 'CourseEndDate'
+    Dtype: datetime64[ns]
+    Nulls: 0 (0.0%)
+    Distinct: 2
+    Values: [Timestamp('1999-01-01 00:00:00'), Timestamp('2099-01-01 00:00:00')]
+
+  Column: 'CourseStatus'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 2
+    Values: ['Active  ', 'Inactive']
+
+  Column: 'CourseGroup_WithoutCHW'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 12
+    Values: ['Child and Adolescent', 'Emergency Care', 'HAST', 'Hospital and Speciality', "Men's Health", 'Outbreaks', 'Primary Care', 'Rehab and Therapeutic', 'Rehab and Therapeutics', 'Support Services', 'Unknown', "Women's Health"]
+
+
+--------------------------------------------------------------------------------
+SHEET: LU_Facility
+--------------------------------------------------------------------------------
+ROWS: 809
+COLUMNS: 19
+
+  Column: 'Status'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 1
+    Values: ['Old']
+
+  Column: 'FacilityCode'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 808
+    Sample (first 15): ['DEP1', 'DEP2', 'DEP3', 'DEP4', 'DEP5', 'DEP6', 'DEP7', 'DEP8', 'DEP9', 'DEP14', 'DEP10', 'DEP11', 'DEP12', 'DEP13', 'DEP23']
+
+  Column: 'FacilityName'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 809
+    Sample (first 15): ['DEPARTMENT OF CORRECTIONAL SERVICES - ALLANDALE', 'DEPARTMENT OF CORRECTIONAL SERVICES - BRANDVLEI', 'DEPARTMENT OF CORRECTIONAL SERVICES - BREEDE RIVER', 'DEPARTMENT OF CORRECTIONAL SERVICES - DRAKENSTEIN', 'DEPARTMENT OF CORRECTIONAL SERVICES - GOODWOOD', 'DEPARTMENT OF CORRECTIONAL SERVICES - HAWEQUA', 'DEPARTMENT OF CORRECTIONAL SERVICES - HELDERSTROOM', 'DEPARTMENT OF CORRECTIONAL SERVICES - KWAZULU NATAL', 'DEPARTMENT OF CORRECTIONAL SERVICES - OBIQUA', 'DEPARTMENT OF CORRECTIONAL SERVICES - OVERBERG', 'DEPARTMENT OF CORRECTIONAL SERVICES - POLLSMOOR', 'DEPARTMENT OF CORRECTIONAL SERVICES - SOUTHERN CAPE', 'DEPARTMENT OF CORRECTIONAL SERVICES - VOORBERG', 'DEPARTMENT OF CORRECTIONAL SERVICES - WEST COAST', 'DEPARTMENT OF HEALTH - CAPE TOWN']
+
+  Column: 'FacilityReportingName'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 677
+    Sample (first 15): ['CORRECTIONAL SERVICES (DCS)', 'DEPARTMENT OF HEALTH (DOH)', 'DESMOND TUTU HEALTH FOUNDATION', 'DEVON VALLEY MOBILE 1', 'DIAZVILLE CLINIC', 'DIEP RIVER CLINIC', 'DIEP RIVER SATELLITE CLINIC', 'DIRKIE UYS CLINIC', 'DIRKIE UYS STREET SATELLITE CLINIC', 'DISCHEM NOORDHOEK', 'DISTRICT SIX CDC', 'DON AND PAT BILTON CLINIC', 'DORINGBAAI SATELLITE CLINIC', 'DP MARAIS TB HOSPITAL', 'DR ABDURAHMAN CDC']
+
+  Column: 'Country'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 2
+    Values: ['South Africa', 'Unassigned']
+
+  Column: 'Province'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 10
+    Values: ['Eastern Cape', 'Free State', 'Gauteng', 'KwaZulu-Natal', 'Limpopo', 'Mpumalanga', 'North West', 'Northern Cape', 'Unassigned', 'Western Cape']
+
+  Column: 'HealthDistrict'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 41
+    Sample (first 15): ['Cape Winelands District', 'City of Cape Town District', 'Overberg District', 'KwaZulu-Natal Other', 'Garden Route District', 'West Coast District', 'Central Karoo District', 'North West Other', 'ZF Mgcawu District', 'Eastern Cape Other', 'Chris Hani District', 'Buffalo City District', 'Amathole District', 'Free State Other', 'Gauteng Other']
+
+  Column: 'HealthSubdistrict'
+    Dtype: object
+    Nulls: 2 (0.2%)
+    Distinct: 69
+    Sample (first 15): ['Drakenstein Subdistrict', 'Breede Valley Subdistrict', 'Northern Subdistrict', 'Theewaterskloof Subdistrict', 'Other', 'Witzenberg Subdistrict', 'Southern Subdistrict', 'George Subdistrict', 'Bergrivier Subdistrict', 'Swartland Subdistrict', 'Western Subdistrict', 'Stellenbosch Subdistrict', 'Saldanha Bay Subdistrict', 'Tygerberg Subdistrict', 'Matzikama Subdistrict']
+
+  Column: 'Authority_Sector'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 12
+    Values: ['CCT Health', 'DCS', 'DSD', 'HEI', 'Health', 'NGO/NPO', 'Other', 'Private', 'SAMHS', 'Unassigned', 'WC Other', 'WCG Health']
+
+  Column: 'AuthorityInd'
+    Dtype: object
+    Nulls: 1 (0.1%)
+    Distinct: 6
+    Values: ['CCT Health', 'Other', 'Other Province', 'Unassigned', 'WC Other', 'WCG Health']
+
+  Column: 'Substructure_District'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 12
+    Values: ['Cape Winelands District', 'Central Karoo District', 'City of Cape Town District', 'Garden Route District', 'Garden Route District ', 'KESS', 'KMPSS', 'NTSS', 'Other', 'Overberg District', 'SWSS', 'West Coast District']
+
+  Column: 'Substructure_District_CCT'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 13
+    Values: ['CCT Health', 'Cape Winelands District', 'Central Karoo District', 'City of Cape Town District', 'Garden Route District', 'Garden Route District ', 'KESS', 'KMPSS', 'NTSS', 'Other', 'Overberg District', 'SWSS', 'West Coast District']
+
+  Column: 'SubStructure'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 6
+    Values: ['KESS', 'KMPSS', 'N/A (Rural)', 'NTSS', 'Other', 'SWSS']
+
+  Column: 'Ecosystem'
+    Dtype: object
+    Nulls: 19 (2.3%)
+    Distinct: 7
+    Values: ['Metro East Ecosystem', 'Metro West Ecosystem', 'Other Province', 'Rural Central Ecosystem', 'Rural East Ecosystem', 'Rural West Ecosystem', 'Unassigned']
+
+  Column: 'RuralUrban'
+    Dtype: object
+    Nulls: 19 (2.3%)
+    Distinct: 4
+    Values: ['Other Province', 'Rural', 'Unassigned', 'Urban']
+
+  Column: 'MetroRural'
+    Dtype: object
+    Nulls: 6 (0.7%)
+    Distinct: 4
+    Values: ['Metro', 'Other Province', 'Rural', 'Unassigned']
+
+  Column: 'Class'
+    Dtype: object
+    Nulls: 18 (2.2%)
+    Distinct: 53
+    Sample (first 15): ['Correctional Services', 'DOH', 'Other', 'Mobile Service', 'Clinic', 'Satellite Clinic', 'Pharmacy Clinic', 'Community Day Centre', 'Specialised TB Hospital', 'Hospital', 'Persons with Disabilities', 'Subdistrict', 'Support to Families', 'Community Health Centre', 'Reproductive Health Centre']
+
+  Column: 'CategoryInd'
+    Dtype: object
+    Nulls: 18 (2.2%)
+    Distinct: 10
+    Values: ['DCS', 'Government Municipality', 'Government Provincial', 'N/A (Rural)', 'NGO/NPO', 'National', 'Private', 'Private ', 'Private  ', 'Unassigned']
+
+  Column: 'MetroRuralPDC'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 8
+    Values: ['GROOTE SCHUUR HOSPITAL', 'Metro', 'Other Province', "RED CROSS WAR MEMORIAL CHILDREN'S HOSPITAL", 'Rural', 'TYGERBERG HOSPITAL', 'Unassigned', 'WC Other']
+
+
+================================================================================
+FILE: Online Data Export 17 Dec_SCRUBBED.csv
+TYPE: CSV
+RELATIVE PATH: Online Data Export 17 Dec_SCRUBBED.csv
+SIZE: 10591.6 KB
+ENCODING: utf-8
+DELIMITER: ','
+================================================================================
+
+ROWS: 25824
+COLUMNS: 27
+
+  Column: 'Course Name'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 58
+    Sample (first 15): ['HIV Prevention and Management - Online (WCGH)', 'Initial Management of All Victim-Survivors of Sexual Offences (PACK) - Online (WCGH)', 'NIMART Online Component - 2023 (WCGH)', 'Infection Prevention & Control - Online (WCGH)', 'Introduction to PACK 2023 - Online (WCGH)', 'Training for Security Guards in Healthcare Facilities - Online (WCGH)', 'PACK Adult 2025 Western Cape Update - Online (WCGH)', 'COVID-19 Training for Vaccination of Children 5-11 years old - Online (WCGH)', 'HIV Testing Services - Online (WCGH)', 'PACK Adult 2023 Western Cape Update - Online (WCGH)', 'Optimising Breastfeeding Outcomes - Online (WCGH)', 'New Vaccine Introduction Training - Online (WCGH)', 'EDRWeb Training - Online (WCGH)', 'BANC 2022: Online Component (WCGH)', 'Introduction to PACK Child 2023 - Online (WCGH)']
+
+  Column: 'Earliest Approval Date'
+    Dtype: object
+    Nulls: 1689 (6.5%)
+    Distinct: 671
+    Sample (first 15): ['16 April 2024', '21 May 2024', '02 April 2025', '28 October 2025', '01 May 2024', '30 May 2024', '11 August 2025', '28 May 2024', '29 April 2024', '12 November 2025', '14 June 2023', '30 July 2025', '20 May 2024', '15 May 2024', '20 September 2023']
+
+  Column: 'Start Date'
+    Dtype: object
+    Nulls: 3673 (14.2%)
+    Distinct: 988
+    Sample (first 15): ['05 February 2025', '23 May 2024', '12 June 2025', '28 October 2025', '05 May 2024', '19 June 2024', '11 August 2025', '09 June 2024', '30 April 2024', '13 November 2025', '25 June 2023', '30 July 2025', '20 May 2024', '28 May 2024', '20 September 2023']
+
+  Column: 'End Date'
+    Dtype: object
+    Nulls: 7345 (28.4%)
+    Distinct: 982
+    Sample (first 15): ['28 March 2025', '27 May 2024', '16 June 2025', '28 October 2025', '07 May 2024', '25 June 2024', '12 August 2025', '22 June 2024', '30 April 2024', '02 December 2025', '27 June 2023', '20 May 2024', '06 July 2024', '25 September 2023', '18 May 2024']
+
+  Column: 'Trainee Number'
+    Dtype: int64
+    Nulls: 0 (0.0%)
+    Distinct: 11512
+    Sample (first 15): [3347222464, 9563131572, 7396412701, 4076477692, 4786331562, 2143383431, 451614612, 5554106661, 1932385676, 7759574265, 3633283356, 5323364774, 6201042559, 7443136356, 1479249556]
+
+  Column: 'Last Name'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 7667
+    Sample (first 15): ['LastBcfebdcdff', 'LastAdbcddbeff', 'LastFcdabcdcbe', 'LastCeffddfbca', 'LastFfecbccbdb', 'LastEfcacefded', 'LastCfdcdefbeb', 'LastAfbfddeadb', 'LastFaeffebabb', 'LastCbbfddecfc', 'LastFcafaaffcb', 'LastFccdecdaed', 'LastAdfefeedfd', 'LastEbedebbacd', 'LastBdffdfbfaf']
+
+  Column: 'First Name'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 6324
+    Sample (first 15): ['FirstDfbfddbbcb', 'FirstDbadfabfff', 'FirstDcfdafefff', 'FirstCddcbdcdba', 'FirstAacefaedcf', 'FirstBbcffdfbdb', 'FirstCceedbdddd', 'FirstAecadbeebc', 'FirstEceecaccaf', 'FirstEadfbdfaeb', 'FirstFbffdbbaea', 'FirstEdfcdafacb', 'FirstDbbeeabbdd', 'FirstFacccfaeac', 'FirstBafdcebebc']
+
+  Column: 'Email'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 11512
+    Sample (first 15): ['193f4aa04244@example.org', '5ab21218e016@example.org', '1931084b952e@example.org', 'c42af34a5ad0@example.org', 'e224024cce50@example.org', '6a15bcf1b42f@example.org', '59cf5a883e35@example.org', 'd450a3397a71@example.org', '6cc3b8bda1f9@example.org', '3448f58747c5@example.org', 'cc25e4374a1d@example.org', '341a59b0e225@example.org', 'ec10da9e900d@example.org', '68699b0d0dbe@example.org', '8580d2c29710@example.org']
+
+  Column: 'Gender'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 4
+    Values: ['Female', 'Male', 'Other', 'Prefer not to say']
+
+  Column: 'Race (mandatory reporting requirement for DOH)'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 7
+    Values: ['African', 'Asian', 'Coloured', 'Indian', 'Other', 'Prefer not to say', 'White']
+
+  Column: 'Disability'
+    Dtype: object
+    Nulls: 19759 (76.5%)
+    Distinct: 3
+    Values: ['No', 'Prefer not to say', 'Yes']
+
+  Column: 'Employer Category'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 6
+    Values: ['Department of Health', 'Municipality (eg.City)', 'NGO/NPO/DSP', 'Other', 'Other - Security Company', 'Private Sector']
+
+  Column: 'Employers / Institution'
+    Dtype: object
+    Nulls: 19776 (76.6%)
+    Distinct: 25
+    Values: ['A.M.A. Security', 'Amazimzim Security', 'Anova Health Institute', 'Byers Security Solutions', 'Department of Correctional Services (DCS)', 'Department of Health and Wellness', 'Desmond Tutu Health Foundation (DTHF)', 'Douglas George Murray Trust (DGMT)', 'Golden Security', 'KTU', 'KTU Partner', 'Likunga Security', 'Maanda-Nes Investments', 'Mzansi Securifire', 'Other', 'PDC', 'Phangela Security', 'Prime African', 'Princeton Security', 'Silver Solutions', 'Stellenbosch University (SU)', 'TB/HIV Care', 'Touching Nations', 'University of the Western Cape (UWC)', 'Western Cape College of Nursing (WCCN)']
+
+  Column: 'Employer / Institution Name'
+    Dtype: object
+    Nulls: 22273 (86.2%)
+    Distinct: 464
+    Sample (first 15): ['University of Western Cape', 'Western Cape College of Nursing', 'western cape college of nursing', 'Pollsmor Prison', 'Western Cape college of nursing', 'University of the Western Cape', 'Stellenbosch University', 'KTU', 'Amazimzim', 'WCCN', 'Right to care', 'Correctional services', 'TB/HIV CARE', 'Wccn', 'The Caring Network']
+
+  Column: 'ID Number'
+    Dtype: float64
+    Nulls: 475 (1.8%)
+    Distinct: 11250
+    Sample (first 15): [4644522167224.0, 4793214641782.0, 8730240339686.0, 3642011354215.0, 3336924411242.0, 4322322367849.0, 1655658543035.0, 6018554860610.0, 1608254454165.0, 6265548705442.0, 6631469933634.0, 3224681446155.0, 727807295162.0, 8656112955434.0, 1143058202451.0]
+
+  Column: 'PERSAL'
+    Dtype: float64
+    Nulls: 8003 (31.0%)
+    Distinct: 4947
+    Sample (first 15): [61788366.0, 55635023.0, 44125204.0, 51421864.0, 69472514.0, 25644222.0, 21354946.0, 66444344.0, 50340522.0, 46834344.0, 20708716.0, 52378886.0, 76040191.0, 63424654.0, 32931448.0]
+
+  Column: 'Profession'
+    Dtype: object
+    Nulls: 0 (0.0%)
+    Distinct: 22
+    Values: ['Allied Health Worker - Not specified', 'Clinical Associate', 'Clinical Nurse Practitioner (CNP)', 'Community Health Worker (CHW)', 'Counsellor', 'Dentist', 'Dietitian', 'Enrolled Nurse', 'Enrolled Nursing Assistant (ENA)', 'Medical Officer/Doctor', 'Medical Student', 'Non-clinical position in a health facility', 'Occupational Therapist', 'Other', 'Pharmacist', 'Pharmacist Assistant', 'Physiotherapist', 'Professional Nurse (PNs)', 'Radiographer', 'Security Guard', 'Social Worker', 'Student Nurse']
+
+  Column: 'Job Title/Rank'
+    Dtype: object
+    Nulls: 24571 (95.1%)
+    Distinct: 238
+    Sample (first 15): ['Administrative Officer: Information Management', 'Admin', 'Operational Manager (OM/OPM)', 'Programme Manager: Clinical Training', 'Operational Manager (OM)', 'Operational Manager', 'Clinical Programme Coordinator', 'OPM', 'Clinical Program Coordinator', 'Clinic Manager', 'Quality Assurance Manager', 'Security officer', 'Chief Medical Orthotist Prosthetist', 'Primary Care Nurse Specialist', 'Clinical program co-ordinator CBS']
+
+  Column: 'Professional Registration Number'
+    Dtype: object
+    Nulls: 250 (1.0%)
+    Distinct: 11262
+    Sample (first 15): ['PR-bdd62fdbd9', 'PR-46a5c95252', 'PR-a8e7b3e584', 'PR-f373df34b2', 'PR-3ddce52843', 'PR-8dc2ca1f71', 'PR-625f524158', 'PR-9c85366ee6', 'PR-b901f0e672', 'PR-01e357c0be', 'PR-12852537d8', 'PR-876fa8e17a', 'PR-cce5b0d433', 'PR-b650e538ed', 'PR-cb047c87e5']
+
+  Column: 'District'
+    Dtype: object
+    Nulls: 2180 (8.4%)
+    Distinct: 19
+    Values: ['Alfred Nzo District Municipality', 'Amathole District Municipality', 'Bojanala Platinum District Municipality', 'Buffalo City Metropolitan Municipality', 'Cape Winelands District Municipality', 'Central Karoo District Municipality', 'Chris Hani District Municipality', 'City of Johannesburg Metropolitan Municipality', 'City of Tshwane Metropolitan Municipality', 'Ehlanzeni District Municipality', 'Garden Route District Municipality', 'Nelson Mandela Bay Municipality', 'OR Tambo District Municipality', 'Overberg District Municipality', 'Sekhukhune District Municipality', 'Thabo Mofutsanyana District Municipality', 'Waterberg District Municipality', 'West Coast District Municipality', 'Western Cape Metropole/City of Cape Town Municipality']
+
+  Column: 'sub-District'
+    Dtype: object
+    Nulls: 3165 (12.3%)
+    Distinct: 48
+    Sample (first 15): ['Beaufort West Local Municipality', 'Kannaland Local Municipality', 'Knysna Local Municipality', 'Oudtshoorn Local Municipality', 'Tygerberg substructure', 'Overstrand Local Municipality', 'Mossel Bay Local Municipality', 'Klipfontein substructure', 'Southern substructure', 'Cederberg Local Municipality', 'Khayelitsha substructure', 'Breede Valley Local Municipality', 'George Local Municipality', 'Western substructure', 'Bergrivier Local Municipality']
+
+  Column: 'Location Name'
+    Dtype: object
+    Nulls: 17 (0.1%)
+    Distinct: 428
+    Sample (first 15): ['Hillside Clinic (Western Cape)', 'Northern and Tygerberg Substructure Office (NTSS)', 'Ladismith (Nissenville) Clinic', 'Knysna CDC', 'Western Cape - Other Location', 'Oudtshoorn Clinic', 'Elsies River CHC', 'Hermanus Hospital', 'Mossel Bay Hospital', 'Guguletu CHC', "Red Cross War Memorial Children's Hospital", 'Citrusdal Hospital', 'Khayelitsha District Hospital', 'Avian Park Clinic', 'Victoria Hospital (Western Cape)']
+
+  Column: 'Other Location'
+    Dtype: object
+    Nulls: 21011 (81.4%)
+    Distinct: 946
+    Sample (first 15): ['University of Western Cape', 'Oudtshoorn Sub-district', 'Western Cape College of Nursing', 'George', 'Pollsmor Prison', 'Western cape', 'Wo', 'Western Cape, KTU', 'Drakenstein sub district', 'Western Cape, Velddrif Clinic', 'Albow Gardens Cliniv', 'Western Cape', 'Strand', 'Southern sub structure', 'Helderstroom medium correctional services']
+
+  Column: 'Authority'
+    Dtype: object
+    Nulls: 2083 (8.1%)
+    Distinct: 2
+    Values: ['CCT Health', 'WCG Health']
+
+  Column: 'Type'
+    Dtype: object
+    Nulls: 3310 (12.8%)
+    Distinct: 20
+    Values: ['Clinic', 'Community Day Centre', 'Community Health Centre', 'Dental Clinic', 'District Hospital', 'Fixed Clinic', 'Hospital', 'Intermediate Care', 'Mobile Service', 'National Central Hospital', 'Regional Hospital', 'Reproductive Health Centre', 'Satellite Clinic', 'Special Clinic', 'Specialised Oral Health Centre', 'Specialised Psychiatric Hospital', 'Specialised Rehabilitation Hospital', 'Specialised Rehabilitation Unit', 'Specialised TB Hospital', 'Tertiary Hospital']
+
+  Column: 'Supervisor Email'
+    Dtype: object
+    Nulls: 493 (1.9%)
+    Distinct: 3213
+    Sample (first 15): ['846bb69a33da@example.org', 'fdd82db2592d@example.org', 'c6e6710e4be6@example.org', '028ba1a45420@example.org', '781da5a2e2de@example.org', '21fe5e1d6ef3@example.org', 'f2daf96df2d4@example.org', 'd09f84e0995a@example.org', '906f4ee6c2d1@example.org', 'b46ca36d5939@example.org', '39de04bc445a@example.org', 'cea961e1e0c0@example.org', '674ac3420c73@example.org', 'cbd3ddc278d1@example.org', '3047201920c6@example.org']
+
+  Column: 'People Development/ RTC Representative (HRD) Email'
+    Dtype: object
+    Nulls: 12264 (47.5%)
+    Distinct: 1322
+    Sample (first 15): ['dbd8232cf0d0@example.org', '33c0e3ab2d59@example.org', '23a401478190@example.org', '3259e6734401@example.org', 'c1de8a390071@example.org', 'f9f48c17290c@example.org', 'ae4f5a40781a@example.org', '2bc08b53cada@example.org', '3047201920c6@example.org', '667a324d0e70@example.org', '9c321467557b@example.org', '1253a1d48c72@example.org', '59555b6262f5@example.org', '2ca704daa025@example.org', '94f353e8dd6c@example.org']
+
